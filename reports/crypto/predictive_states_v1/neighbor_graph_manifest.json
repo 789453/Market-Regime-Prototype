@@ -1,0 +1,19 @@
+{
+  "method": "CUDA exact kNN to 12,000 real history anchors; 16-neighbor graph; Louvain communities; 8-neighbor inference",
+  "anchors_from": "2023-01 through 2024-12 only",
+  "community_count": 10,
+  "community_sizes": [
+    1792,
+    1396,
+    1278,
+    1578,
+    1867,
+    615,
+    493,
+    877,
+    1112,
+    992
+  ],
+  "validation_or_test_used_to_choose_graph": false,
+  "caution": "implemented after first centroid test read; graph test comparison is exploratory"
+}

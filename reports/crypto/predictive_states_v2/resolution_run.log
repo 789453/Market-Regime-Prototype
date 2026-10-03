@@ -1,0 +1,5 @@
+K 24 inner/val [('inner', 1.257207), ('validation', 1.258836)] min sampled region 8765
+K 48 inner/val [('inner', 1.256763), ('validation', 1.258002)] min sampled region 4220
+K 96 inner/val [('inner', 1.257426), ('validation', 1.257972)] min sampled region 1702
+raw best 96 smallest within paired interval 48
+test exploratory 1.25815749168396 identity {'chosen_k': 48, 'matched_assignment_agreement': 0.4630883487654321, 'adjusted_rand_index': 0.3207734737907396, 'mean_matched_center_distance': 0.4408780336380005, 'comparison': '2023 vs 2024 independently fitted centers; common 2025H1 paths'}

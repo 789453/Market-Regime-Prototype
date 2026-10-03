@@ -1,0 +1,43 @@
+{
+  "stage": 5,
+  "formal_portfolios": {
+    "d01": [
+      "D01"
+    ],
+    "d01_d08": [
+      "D01",
+      "D02",
+      "D03",
+      "D04",
+      "D05",
+      "D06",
+      "D07",
+      "D08"
+    ]
+  },
+  "tradable_roots": [
+    "ES",
+    "NQ",
+    "RTY",
+    "HSI"
+  ],
+  "context_only_roots": [
+    "HTI"
+  ],
+  "cost_multiplier": 1.5,
+  "holdout_start": "2026-07-01 00:00:00+00:00",
+  "holdout_views_used": 2,
+  "shuffle_draws_per_portfolio": 500,
+  "global_k_before_stage5": 168,
+  "global_k_after_stage5": 214,
+  "stage5_candidate_variants": 46,
+  "authoritative_shuffle_files": [
+    "05_d01_shuffle_500_exitfix.csv",
+    "05_d01_d08_shuffle_500_exitfix.csv"
+  ],
+  "superseded_shuffle_files": [
+    "05_d01_shuffle_500.csv",
+    "05_d01_d08_shuffle_500.csv"
+  ],
+  "tests_passed": 41
+}

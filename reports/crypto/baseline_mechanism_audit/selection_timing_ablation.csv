@@ -1,0 +1,7 @@
+phase,policy,days,active_days,same_entry_net_return,same_entry_net_bp_active_day
+2025H2_development,pair_full_x2_own_sparse_posthoc,184,59,0.11604017338780848,20.901781447612198
+2025H2_development,pair_momentum_own_sparse_same_entry,184,59,-0.07379010147291098,-10.605902379629503
+2025H2_development,reverse_own,184,59,-0.15737679190768494,-26.686713984547964
+2026_exploratory,pair_full_x2_own_sparse_posthoc,266,69,0.12087112116704568,18.902495996443864
+2026_exploratory,pair_momentum_own_sparse_same_entry,266,69,-0.2751406472371374,-43.544150419933786
+2026_exploratory,reverse_own,266,69,-0.16699478796343714,-24.065875710097213

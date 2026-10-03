@@ -1,0 +1,7 @@
+detector_id,parameter,value,performance,n,is_default
+D08,z_threshold,0.5,-0.1447515313211963,63,False
+D08,z_threshold,0.8,-0.15741087840191742,61,True
+D08,z_threshold,1.1,-0.20838222001079784,59,False
+D08,event_minute,900.0,-0.3135675564209696,59,False
+D08,event_minute,930.0,-0.15741087840191742,61,True
+D08,event_minute,945.0,0.019465154339807115,60,False

@@ -1,0 +1,14 @@
+{
+  "generated_at_utc": "2026-09-05T02:04:03.293652+00:00",
+  "git_hash": null,
+  "inputs": {
+    "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\data\\interim\\bars_5m.parquet": "43d9043e550103507e4d48263fbedc1d4fbce83a06e520b0e5821fa37e5f8b49",
+    "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\data\\processed\\context.parquet": "f347216f873e90bdfb3e2e0aab7907d88ab707a0c24232a538aec02d166a1110",
+    "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\data\\processed\\labels.parquet": "1265b3795bd5eece6c6ca66e0961e85c0d62ab17f8f570db4c47ed6c237a101c"
+  },
+  "configs": {
+    "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\configs\\base.yaml": "ba041632bea449ee296df3e664f8a0b68c13b5ee9a495d5828c76a525301416b",
+    "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\configs\\detectors.yaml": "ce980111f1cec074754099d8b5cb17d6ce491685ec0605860c321d3d578e1140",
+    "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\configs\\cost_model.yaml": "6a2ea0e9fe43407fba52d7d241707446b05fb459e48fc0f35e013c7e8f6452ae"
+  }
+}

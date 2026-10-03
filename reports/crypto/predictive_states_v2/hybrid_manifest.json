@@ -1,0 +1,6 @@
+{
+  "resolution_k": 48,
+  "geometry": "X1 clock-free; input-only soft membership",
+  "conditional_capacity": "75 trees, 7 leaves",
+  "test_status": "exploratory reuse"
+}

@@ -1,0 +1,71 @@
+{
+  "forecast_source": "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\reports\\crypto\\regime_prototypes_v1\\forward_forecasts.parquet",
+  "threshold_source": "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\reports\\crypto\\regime_prototypes_v1\\threshold_history.csv",
+  "cases": [
+    {
+      "name": "direct_uniform_continuous_hourly",
+      "continuous": true,
+      "threshold": "uniform",
+      "review_hours": 1,
+      "switch_hurdle": 0.0004,
+      "deadband": 0.0
+    },
+    {
+      "name": "direct_state_fixed_hourly",
+      "continuous": false,
+      "threshold": "state",
+      "review_hours": 1,
+      "switch_hurdle": 0.0004,
+      "deadband": 0.0
+    },
+    {
+      "name": "direct_state_continuous_hourly",
+      "continuous": true,
+      "threshold": "state",
+      "review_hours": 1,
+      "switch_hurdle": 0.0004,
+      "deadband": 0.0
+    },
+    {
+      "name": "direct_sticky_continuous",
+      "continuous": true,
+      "threshold": "state",
+      "review_hours": 4,
+      "switch_hurdle": 0.0016,
+      "deadband": 0.1
+    },
+    {
+      "name": "direct_sticky_fixed",
+      "continuous": false,
+      "threshold": "state",
+      "review_hours": 4,
+      "switch_hurdle": 0.0016,
+      "deadband": 0.1
+    },
+    {
+      "name": "calm_specialist_sticky",
+      "continuous": true,
+      "threshold": "state",
+      "review_hours": 4,
+      "switch_hurdle": 0.0016,
+      "deadband": 0.1
+    },
+    {
+      "name": "directional_sticky",
+      "continuous": true,
+      "threshold": "state",
+      "review_hours": 4,
+      "switch_hurdle": 0.0016,
+      "deadband": 0.1
+    },
+    {
+      "name": "direction_hybrid_sticky",
+      "continuous": true,
+      "threshold": "state",
+      "review_hours": 4,
+      "switch_hurdle": 0.0016,
+      "deadband": 0.1
+    }
+  ],
+  "comparison_status": "exploratory reused development history"
+}

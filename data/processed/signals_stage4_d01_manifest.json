@@ -1,0 +1,13 @@
+{
+  "generated_at_utc": "2026-09-05T02:24:15.962857+00:00",
+  "git_hash": null,
+  "inputs": {
+    "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\data\\processed\\signals_d01.parquet": "8a19ee48c5d8c4b51af95f08292832d21560b15f927c3c646518926033db56ca",
+    "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\data\\processed\\context.parquet": "f347216f873e90bdfb3e2e0aab7907d88ab707a0c24232a538aec02d166a1110",
+    "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\data\\processed\\labels.parquet": "1265b3795bd5eece6c6ca66e0961e85c0d62ab17f8f570db4c47ed6c237a101c"
+  },
+  "configs": {
+    "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\configs\\detectors.yaml": "ce980111f1cec074754099d8b5cb17d6ce491685ec0605860c321d3d578e1140",
+    "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\configs\\regime.yaml": "820d2a75a03978e37a03846beef25916a924f055ad9658b0df0b126b955f1fb5"
+  }
+}

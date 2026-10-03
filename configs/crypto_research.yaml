@@ -1,0 +1,18 @@
+project: crypto_pattern_timing_research
+timezone: UTC
+data:
+  root: D:/Trading/practical_crypto_strategy/data/parquet
+  symbols: [ADAUSDT, AVAXUSDT, BCHUSDT, BNBUSDT, BTCUSDT, DOGEUSDT, ETHUSDT, LINKUSDT, LTCUSDT, SOLUSDT, TRXUSDT, XRPUSDT]
+  frequencies: [5m, 15m, 1h]
+  primary_frequency: 5m
+  raw_read_only: true
+research:
+  signal_clock: bar_close
+  cross_frequency_join: available_at_backward_asof
+  candidate_horizons_hours: [1, 4, 12, 24, 48]
+  output_namespace: crypto
+execution:
+  venue: Binance  # user-provided source; exact contract type still unconfirmed
+  contract_type: unconfirmed
+  fee_model: scenario_pending_source_confirmation
+  funding: unavailable_in_source

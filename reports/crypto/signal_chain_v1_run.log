@@ -1,0 +1,104 @@
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+2025H2_development                            strategy  total_return  open_events  avg_hold_hours
+                        market_base     -0.106682           36       50.666667
+                   market_risk_gate     -0.080746           35       48.000000
+                          pair_base     -0.021237           36       40.000000
+                  pair_k48_distance     -0.138579           29       47.172414
+                pair_full_x2_direct      0.058685           60       34.800000
+        pair_full_x2_sparse_posthoc      0.102975           37       39.567568
+                   pair_full_x2_own      0.031488           59       39.050847
+    pair_full_x2_own_sparse_posthoc      0.116040           32       44.250000
+               market_past_momentum     -0.294526           56       35.142857
+                 pair_past_momentum     -0.268271           37       42.162162
+                  pair_reverse_full     -0.159371           60       34.800000
+                pair_reverse_sparse     -0.160096           37       39.567568
+            pair_reverse_own_sparse     -0.157377           32       44.250000
+           pair_momentum_same_entry     -0.100720           87       24.000000
+    pair_momentum_sparse_same_entry     -0.123057           61       24.000000
+pair_momentum_own_sparse_same_entry     -0.073790           59       24.000000
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMRegressor was fitted with feature names
+  warnings.warn(
+2026_exploratory                            strategy  total_return  open_events  avg_hold_hours
+                        market_base     -0.052977           44       36.545455
+                   market_risk_gate     -0.049676           32       35.250000
+                          pair_base     -0.139322           32       39.000000
+                  pair_k48_distance     -0.210388           36       34.000000
+                pair_full_x2_direct     -0.043322           65       38.769231
+        pair_full_x2_sparse_posthoc     -0.027989           40       47.400000
+                   pair_full_x2_own     -0.138562           70       37.714286
+    pair_full_x2_own_sparse_posthoc      0.120871           37       44.756757
+               market_past_momentum      0.441037           48       37.000000
+                 pair_past_momentum     -0.200371           39       29.538462
+                  pair_reverse_full     -0.089303           65       38.769231
+                pair_reverse_sparse     -0.067724           40       47.400000
+            pair_reverse_own_sparse     -0.166995           37       44.756757
+           pair_momentum_same_entry     -0.199101          105       24.000000
+    pair_momentum_sparse_same_entry     -0.204357           79       24.000000
+pair_momentum_own_sparse_same_entry     -0.275141           69       24.000000
+D:\Trading\HongKongQuant\time_selecting_strategy\scripts\crypto_signal_chain_v1.py:512: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  forecast["month"] = forecast.available_at.dt.to_period("M").astype(str)
+D:\Trading\HongKongQuant\time_selecting_strategy\scripts\crypto_signal_chain_v1.py:512: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  forecast["month"] = forecast.available_at.dt.to_period("M").astype(str)

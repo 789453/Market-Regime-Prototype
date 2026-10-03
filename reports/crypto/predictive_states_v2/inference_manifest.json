@@ -1,0 +1,17 @@
+{
+  "model": "compact 29 + symbol 12 + K48 distance/margin 2; three 75-tree/7-leaf heads",
+  "feature_reference_fit_end": "2025-01-01T00:00:00Z",
+  "requires": "aligned completed 15m feature snapshots of all 12 symbols and 16 prior steps",
+  "inference_uses_future_labels": false,
+  "test_status": "exploratory reuse; not a new independent holdout",
+  "rows_reproduced": 270720,
+  "logloss_reproduced": 1.2253811359405518,
+  "reference_logloss": 1.2253811359405518,
+  "geometry_cuda": true,
+  "streaming_17_snapshot_max_probability_difference": 0.0,
+  "probability_tasks": [
+    "4h standardized return five bins",
+    "24h standardized return five bins",
+    "4h variance above past-24h-equivalent threshold"
+  ]
+}

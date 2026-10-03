@@ -1,0 +1,13 @@
+loaded 1570164 fit 209949 discovery 262077
+X1_equal K 6 validation [('X1_equal_K6_soft', 1.262341), ('X1_equal_K6_soft', 1.262974)]
+X1_equal K 12 validation [('X1_equal_K12_soft', 1.259489), ('X1_equal_K12_soft', 1.260733)]
+X1_equal K 24 validation [('X1_equal_K24_soft', 1.257109), ('X1_equal_K24_soft', 1.258566)]
+X2_equal K 6 validation [('X2_equal_K6_soft', 1.267683), ('X2_equal_K6_soft', 1.267675)]
+X2_equal K 12 validation [('X2_equal_K12_soft', 1.264499), ('X2_equal_K12_soft', 1.265074)]
+X2_equal K 24 validation [('X2_equal_K24_soft', 1.261639), ('X2_equal_K24_soft', 1.26229)]
+X2_covariance K 6 validation [('X2_covariance_K6_soft', 1.271857), ('X2_covariance_K6_soft', 1.271484)]
+X2_covariance K 12 validation [('X2_covariance_K12_soft', 1.268356), ('X2_covariance_K12_soft', 1.267706)]
+X2_covariance K 24 validation [('X2_covariance_K24_soft', 1.264935), ('X2_covariance_K24_soft', 1.265006)]
+inner top [{'model': 'X1_equal_K24_soft', 'logloss': 1.2571088075637817}, {'model': 'X1_equal_K24_hard', 'logloss': 1.2592473030090332}, {'model': 'X1_equal_K12_soft', 'logloss': 1.2594892978668213}, {'model': 'X1_equal_K12_hard', 'logloss': 1.2616209983825684}, {'model': 'X2_equal_K24_soft', 'logloss': 1.2616394758224487}]
+validation top [{'model': 'X1_equal_K24_soft', 'logloss': 1.25856614112854}, {'model': 'X1_equal_K12_soft', 'logloss': 1.2607332468032837}, {'model': 'X1_equal_K24_hard', 'logloss': 1.2610102891921997}, {'model': 'X2_equal_K24_soft', 'logloss': 1.262290120124817}, {'model': 'X1_equal_K6_soft', 'logloss': 1.2629741430282593}]
+winner X1_equal_K24_soft test exploratory 1.2582428455352783

@@ -1,0 +1,2 @@
+﻿name,strategy_id,model,inputs,decision,execution,threshold_source,fee_scenario_bp_per_side,saved_forecasts,saved_ledger
+完整本币 X2，80/40（后验）,pair_full_x2_own_sparse_posthoc,full_x2_own_alpha_24h.joblib,100 X2 + 12 symbol dummies,00:00 UTC completed snapshot,next 5m 00:05 open,in-sample model prediction on preceding fit range,4,signal_chain_v1/forecast_rows_{phase}.parquet,signal_chain_v1/portfolio_daily.parquet

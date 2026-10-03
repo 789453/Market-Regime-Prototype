@@ -1,0 +1,229 @@
+{
+  "discovery": "2023-01-15 to 2023-12-31: quantile geometry and similarity thresholds only",
+  "certificate_period": "2024; historical evidence, not external validation",
+  "development_check": "2025; previously viewed by earlier experiments",
+  "terminal_period": "2026 untouched",
+  "design_status": "handcrafted after earlier 2023-2025 project feedback; not preregistered or independent validation",
+  "prototypes": [
+    {
+      "name": "trend_continuation_long",
+      "direction": 1,
+      "mechanism": "上行路径效率与主动参与配合，趋势仍在扩展",
+      "coordinates": {
+        "trend_15": {
+          "center": 0.84,
+          "half_width": 0.12,
+          "weight": 2.0
+        },
+        "efficiency_15": {
+          "center": 0.8,
+          "half_width": 0.15,
+          "weight": 1.4
+        },
+        "flow": {
+          "center": 0.7,
+          "half_width": 0.2,
+          "weight": 1.0
+        },
+        "path": {
+          "center": 0.77,
+          "half_width": 0.19,
+          "weight": 1.0
+        },
+        "vol_intensity": {
+          "center": 0.65,
+          "half_width": 0.24,
+          "weight": 0.7
+        },
+        "trend_change": {
+          "center": 0.72,
+          "half_width": 0.23,
+          "weight": 0.7
+        }
+      }
+    },
+    {
+      "name": "trend_continuation_short",
+      "direction": -1,
+      "mechanism": "下行路径效率与主动卖出配合，趋势仍在扩展",
+      "coordinates": {
+        "trend_15": {
+          "center": 0.16,
+          "half_width": 0.12,
+          "weight": 2.0
+        },
+        "efficiency_15": {
+          "center": 0.8,
+          "half_width": 0.15,
+          "weight": 1.4
+        },
+        "flow": {
+          "center": 0.3,
+          "half_width": 0.2,
+          "weight": 1.0
+        },
+        "path": {
+          "center": 0.23,
+          "half_width": 0.19,
+          "weight": 1.0
+        },
+        "vol_intensity": {
+          "center": 0.65,
+          "half_width": 0.24,
+          "weight": 0.7
+        },
+        "trend_change": {
+          "center": 0.28,
+          "half_width": 0.23,
+          "weight": 0.7
+        }
+      }
+    },
+    {
+      "name": "compression_release_long",
+      "direction": 1,
+      "mechanism": "波动从收缩转向扩张，路径和主动流向上确认",
+      "coordinates": {
+        "vol_intensity": {
+          "center": 0.57,
+          "half_width": 0.22,
+          "weight": 1.0
+        },
+        "vol_change": {
+          "center": 0.87,
+          "half_width": 0.14,
+          "weight": 1.8
+        },
+        "trend_change": {
+          "center": 0.83,
+          "half_width": 0.16,
+          "weight": 1.6
+        },
+        "path": {
+          "center": 0.78,
+          "half_width": 0.19,
+          "weight": 1.0
+        },
+        "flow": {
+          "center": 0.67,
+          "half_width": 0.2,
+          "weight": 0.9
+        },
+        "efficiency_15": {
+          "center": 0.62,
+          "half_width": 0.23,
+          "weight": 0.8
+        }
+      }
+    },
+    {
+      "name": "compression_release_short",
+      "direction": -1,
+      "mechanism": "波动从收缩转向扩张，路径和主动流向下确认",
+      "coordinates": {
+        "vol_intensity": {
+          "center": 0.57,
+          "half_width": 0.22,
+          "weight": 1.0
+        },
+        "vol_change": {
+          "center": 0.87,
+          "half_width": 0.14,
+          "weight": 1.8
+        },
+        "trend_change": {
+          "center": 0.17,
+          "half_width": 0.16,
+          "weight": 1.6
+        },
+        "path": {
+          "center": 0.22,
+          "half_width": 0.19,
+          "weight": 1.0
+        },
+        "flow": {
+          "center": 0.33,
+          "half_width": 0.2,
+          "weight": 0.9
+        },
+        "efficiency_15": {
+          "center": 0.62,
+          "half_width": 0.23,
+          "weight": 0.8
+        }
+      }
+    },
+    {
+      "name": "shock_rejection_long",
+      "direction": 1,
+      "mechanism": "下行冲击后长下影并高位收回，研究被吸收后的回升",
+      "coordinates": {
+        "trend_15": {
+          "center": 0.23,
+          "half_width": 0.18,
+          "weight": 1.2
+        },
+        "vol_intensity": {
+          "center": 0.85,
+          "half_width": 0.15,
+          "weight": 1.2
+        },
+        "lower_wick": {
+          "center": 0.86,
+          "half_width": 0.13,
+          "weight": 1.6
+        },
+        "path": {
+          "center": 0.75,
+          "half_width": 0.2,
+          "weight": 1.2
+        },
+        "flow": {
+          "center": 0.6,
+          "half_width": 0.25,
+          "weight": 0.7
+        }
+      }
+    },
+    {
+      "name": "shock_rejection_short",
+      "direction": -1,
+      "mechanism": "上行冲击后长上影并低位收回，研究被吸收后的回落",
+      "coordinates": {
+        "trend_15": {
+          "center": 0.77,
+          "half_width": 0.18,
+          "weight": 1.2
+        },
+        "vol_intensity": {
+          "center": 0.85,
+          "half_width": 0.15,
+          "weight": 1.2
+        },
+        "upper_wick": {
+          "center": 0.86,
+          "half_width": 0.13,
+          "weight": 1.6
+        },
+        "path": {
+          "center": 0.25,
+          "half_width": 0.2,
+          "weight": 1.2
+        },
+        "flow": {
+          "center": 0.4,
+          "half_width": 0.25,
+          "weight": 0.7
+        }
+      }
+    }
+  ],
+  "threshold_percentiles": [
+    0.99,
+    0.995,
+    0.9975,
+    0.999
+  ],
+  "event_refractory_hours": 4,
+  "note": "research candidates only; a pointwise matched random control is reported at percentile 0.995, but it does not preserve clustered outcomes and is not a certification test"
+}

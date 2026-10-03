@@ -1,0 +1,32 @@
+{
+  "symbols": [
+    "ADAUSDT",
+    "AVAXUSDT",
+    "BCHUSDT",
+    "BNBUSDT",
+    "BTCUSDT",
+    "DOGEUSDT",
+    "ETHUSDT",
+    "LINKUSDT",
+    "LTCUSDT",
+    "SOLUSDT",
+    "TRXUSDT",
+    "XRPUSDT"
+  ],
+  "decision": "daily UTC 00:00 completed 15m snapshot; 00:05 next 5m execution open",
+  "feature_reference": "pre-2025 v2 per-symbol empirical maps",
+  "geometry": "v2 X1 clock-free K48 fixed centers, distance/margin only",
+  "full_x2_direct": "100 X2 coordinates plus 11 completed-market/context fields and 12 symbol dummies",
+  "full_x2_own_direct": "100 X2 coordinates plus 12 symbol dummies, without added market summary",
+  "risk_probability": "frozen v2 compact plus geometry 4h high-vol classifier",
+  "train": "2023-02 through 2025-06; refit to 2025-12 with 24h label purge",
+  "2026_status": "exploratory reuse after v1/v2 inspection",
+  "posthoc_candidates": [
+    "full_x2_direct added after first compact strategy run",
+    "full_x2_sparse_80_40 chosen after threshold-neighborhood inspection",
+    "full_x2 own-only versus market-augmented ablation after 2026 outcome inspection"
+  ],
+  "cost": "0, 4, 10 bp per side scenarios; excludes funding, spread and impact",
+  "frequency": "one daily decision and 24h holding/review; 4h forecast audited only",
+  "return_distribution": "frozen v2 compact plus geometry 4h/24h five-bin classifiers; separate from continuous-mean heads"
+}

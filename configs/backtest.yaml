@@ -1,0 +1,33 @@
+execution:
+  decision_at: bar_close
+  trade_at: next_valid_bar
+  benchmark_prices: [wap, open]
+  cost_multiplier: 1.5
+  avoid_session_edge_bars: 2
+  avoid_roll_boundary_bars: 3
+  max_volume_participation: 0.05
+
+sizing:
+  instrument_vol_target_annual: 0.10
+  portfolio_vol_target_annual: 0.10
+  max_instrument_weight: 2.0
+  max_same_direction_exposure: 2.5
+  fusion_shrinkage_tau: 0.5
+  detector_prior_weights: equal
+  signal_eta: 0.25
+  band_zeta: 0.05
+  risk_aversion_lambda: 1.0
+  covariance_half_life_sessions: 20
+  detector_correlation_threshold: 0.60
+
+risk:
+  max_single_bet_fraction: 0.25
+  out_of_sample_vol_multiplier: 0.3
+  sigma_percentile_breaker: 0.99
+  spread_percentile_breaker: 0.95
+
+validation:
+  holdout_start: 2026-07-01
+  holdout_view_limit: 3
+  signal_shuffle_draws: 500
+  signal_shuffle_percentile_gate: 0.95

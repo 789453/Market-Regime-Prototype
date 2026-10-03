@@ -1,0 +1,88 @@
+{
+  "config": {
+    "version": "regime_predictive_prototypes_20260930",
+    "source": "D:/Trading/practical_crypto_strategy/data/parquet",
+    "feature_dir": "data/crypto/features",
+    "symbols": [
+      "ADAUSDT",
+      "AVAXUSDT",
+      "BCHUSDT",
+      "BNBUSDT",
+      "BTCUSDT",
+      "DOGEUSDT",
+      "ETHUSDT",
+      "LINKUSDT",
+      "LTCUSDT",
+      "SOLUSDT",
+      "TRXUSDT",
+      "XRPUSDT"
+    ],
+    "decision_frequency": "1h",
+    "feature_available_at": "completed_15m_bar_close",
+    "execution_delay_minutes": 5,
+    "outcome_horizons_hours": [
+      4,
+      24,
+      72,
+      120
+    ],
+    "source_end_exclusive": "2026-09-25T00:00:00Z",
+    "fit_reference_end": "2023-07-01T00:00:00Z",
+    "first_policy_start": "2024-01-01T00:00:00Z",
+    "training_start": "2023-02-01T00:00:00Z",
+    "fold_edges": [
+      "2023-07-01T00:00:00Z",
+      "2024-01-01T00:00:00Z",
+      "2024-07-01T00:00:00Z",
+      "2025-01-01T00:00:00Z",
+      "2025-07-01T00:00:00Z",
+      "2026-01-01T00:00:00Z",
+      "2026-07-01T00:00:00Z",
+      "2026-09-19T00:00:00Z"
+    ],
+    "longest_label_purge_hours": 120,
+    "prototype_parents": 12,
+    "forecast_lookback_days": 90,
+    "commission_scenarios_bp_side": [
+      0,
+      4,
+      10
+    ],
+    "random_seed": 20260930,
+    "evidence_status": "development_forward_and_reused_2026_exploration"
+  },
+  "symbols": [
+    "ADAUSDT",
+    "AVAXUSDT",
+    "BCHUSDT",
+    "BNBUSDT",
+    "BTCUSDT",
+    "DOGEUSDT",
+    "ETHUSDT",
+    "LINKUSDT",
+    "LTCUSDT",
+    "SOLUSDT",
+    "TRXUSDT",
+    "XRPUSDT"
+  ],
+  "first_fold_role": "forward score calibration only",
+  "2026_role": "reused exploration, not untouched test",
+  "outcome_signature": [
+    "4h beta residual / past sigma",
+    "24h beta residual / past sigma",
+    "4h up-minus-down semivariance balance",
+    "24h up-minus-down semivariance balance",
+    "4h log future/known variance",
+    "24h log future/known variance",
+    "24h maximum favorable excursion / past sigma",
+    "24h maximum adverse excursion / past sigma"
+  ],
+  "prototype_selection": "geometry parents; separate risk/multitask and direction-certified later-time split tests; refit accepted children on eligible train",
+  "decision": "hourly completed bar at HH:00, next 5m open HH:05",
+  "fee": "scenario, excludes funding/spread/impact",
+  "forecast_comparators": {
+    "direct_x2_symbol": "100 X2 coordinates plus 12 symbol indicators",
+    "direct_x2_only": "same 100 X2 coordinates used by prototype outcome split",
+    "geometry": "18 direction-neutral X2 geometry coordinates"
+  }
+}

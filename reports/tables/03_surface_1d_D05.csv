@@ -1,0 +1,10 @@
+detector_id,parameter,value,performance,n,is_default
+D05,confirm_bars,2.0,-0.0704939706699611,767,False
+D05,confirm_bars,3.0,-0.04697071618844669,787,True
+D05,confirm_bars,4.0,-0.040941486628528,784,False
+D05,small_z,0.4,-0.051327795263570224,760,False
+D05,small_z,0.5,-0.04697071618844669,787,True
+D05,small_z,0.6,-0.013140576984476862,817,False
+D05,large_z,1.2,-0.06652688505923708,822,False
+D05,large_z,1.5,-0.04697071618844669,787,True
+D05,large_z,1.8,-0.03986080038402287,737,False

@@ -1,0 +1,8 @@
+detector_id,parameter,value,performance,n,is_default
+D03,kappa,1.5,0.3876584749103344,124,False
+D03,kappa,2.0,-0.1846764741161588,86,True
+D03,kappa,2.5,-0.5780597917689694,53,False
+D03,kappa,3.0,-0.49259865042663803,44,False
+D03,retrace_hi,0.55,-0.37530442036255485,48,False
+D03,retrace_hi,0.65,-0.1846764741161588,86,True
+D03,retrace_hi,0.75,-0.15702389500749112,116,False

@@ -1,0 +1,201 @@
+{
+  "model_columns": 136,
+  "base_columns": 112,
+  "path_columns": 24,
+  "groups": {
+    "vol_strength": 20,
+    "vol_asymmetry": 20,
+    "path_geometry": 20,
+    "trend": 20,
+    "efficiency": 20,
+    "participation": 20,
+    "time_context": 16
+  },
+  "methods": [
+    "semantic_seed",
+    "full_equal",
+    "full_redundancy",
+    "full_dynamic",
+    "semantic_gated_full",
+    "full_cosine"
+  ],
+  "prototypes": [
+    {
+      "name": "trend_long",
+      "family": "trend_continuation",
+      "direction": 1,
+      "coordinates": {
+        "momentum_z_med_15m": 0.84,
+        "momentum_z_med_15m__lag4h": 0.7,
+        "efficiency_med_15m": 0.78,
+        "direction_alignment_5m": 0.83,
+        "flow_imb_med_15m": 0.68,
+        "rv_fast_slow_15m": 0.59
+      },
+      "prior_group_weights": {
+        "vol_strength": 0.6,
+        "vol_asymmetry": 0.45,
+        "path_geometry": 0.8,
+        "trend": 2.0,
+        "efficiency": 1.45,
+        "participation": 1.0,
+        "time_context": 0.15
+      }
+    },
+    {
+      "name": "trend_short",
+      "family": "trend_continuation",
+      "direction": -1,
+      "coordinates": {
+        "momentum_z_med_15m": 0.16,
+        "momentum_z_med_15m__lag4h": 0.3,
+        "efficiency_med_15m": 0.78,
+        "direction_alignment_5m": 0.17,
+        "flow_imb_med_15m": 0.32,
+        "rv_fast_slow_15m": 0.59
+      },
+      "prior_group_weights": {
+        "vol_strength": 0.6,
+        "vol_asymmetry": 0.45,
+        "path_geometry": 0.8,
+        "trend": 2.0,
+        "efficiency": 1.45,
+        "participation": 1.0,
+        "time_context": 0.15
+      }
+    },
+    {
+      "name": "release_long",
+      "family": "compression_release",
+      "direction": 1,
+      "coordinates": {
+        "rv_fast_slow_15m__lag4h": 0.25,
+        "rv_fast_slow_15m": 0.68,
+        "rv_fast_slow_15m__delta4h": 0.84,
+        "momentum_z_med_15m": 0.76,
+        "close_location_5m": 0.78,
+        "flow_imb_med_15m": 0.68
+      },
+      "prior_group_weights": {
+        "vol_strength": 2.0,
+        "vol_asymmetry": 0.45,
+        "path_geometry": 1.1,
+        "trend": 1.25,
+        "efficiency": 0.7,
+        "participation": 0.9,
+        "time_context": 0.15
+      }
+    },
+    {
+      "name": "release_short",
+      "family": "compression_release",
+      "direction": -1,
+      "coordinates": {
+        "rv_fast_slow_15m__lag4h": 0.25,
+        "rv_fast_slow_15m": 0.68,
+        "rv_fast_slow_15m__delta4h": 0.84,
+        "momentum_z_med_15m": 0.24,
+        "close_location_5m": 0.22,
+        "flow_imb_med_15m": 0.32
+      },
+      "prior_group_weights": {
+        "vol_strength": 2.0,
+        "vol_asymmetry": 0.45,
+        "path_geometry": 1.1,
+        "trend": 1.25,
+        "efficiency": 0.7,
+        "participation": 0.9,
+        "time_context": 0.15
+      }
+    },
+    {
+      "name": "rejection_long",
+      "family": "shock_rejection",
+      "direction": 1,
+      "coordinates": {
+        "momentum_z_med_15m__lag4h": 0.2,
+        "lower_wick_med_5m": 0.86,
+        "close_location_5m": 0.78,
+        "rv_surprise_5m": 0.82,
+        "flow_imb_med_15m": 0.55
+      },
+      "prior_group_weights": {
+        "vol_strength": 1.1,
+        "vol_asymmetry": 1.6,
+        "path_geometry": 1.65,
+        "trend": 0.8,
+        "efficiency": 0.45,
+        "participation": 0.7,
+        "time_context": 0.15
+      }
+    },
+    {
+      "name": "rejection_short",
+      "family": "shock_rejection",
+      "direction": -1,
+      "coordinates": {
+        "momentum_z_med_15m__lag4h": 0.8,
+        "upper_wick_med_5m": 0.86,
+        "close_location_5m": 0.22,
+        "rv_surprise_5m": 0.82,
+        "flow_imb_med_15m": 0.45
+      },
+      "prior_group_weights": {
+        "vol_strength": 1.1,
+        "vol_asymmetry": 1.6,
+        "path_geometry": 1.65,
+        "trend": 0.8,
+        "efficiency": 0.45,
+        "participation": 0.7,
+        "time_context": 0.15
+      }
+    },
+    {
+      "name": "range_long",
+      "family": "range_reversion",
+      "direction": 1,
+      "coordinates": {
+        "efficiency_med_15m": 0.22,
+        "sign_flip_med_15m": 0.79,
+        "vwap_distance_15m": 0.18,
+        "close_location_5m": 0.62,
+        "return_acf1_med_15m": 0.28
+      },
+      "prior_group_weights": {
+        "vol_strength": 0.6,
+        "vol_asymmetry": 0.45,
+        "path_geometry": 1.75,
+        "trend": 0.55,
+        "efficiency": 1.9,
+        "participation": 0.55,
+        "time_context": 0.15
+      }
+    },
+    {
+      "name": "range_short",
+      "family": "range_reversion",
+      "direction": -1,
+      "coordinates": {
+        "efficiency_med_15m": 0.22,
+        "sign_flip_med_15m": 0.79,
+        "vwap_distance_15m": 0.82,
+        "close_location_5m": 0.38,
+        "return_acf1_med_15m": 0.28
+      },
+      "prior_group_weights": {
+        "vol_strength": 0.6,
+        "vol_asymmetry": 0.45,
+        "path_geometry": 1.75,
+        "trend": 0.55,
+        "efficiency": 1.9,
+        "participation": 0.55,
+        "time_context": 0.15
+      }
+    }
+  ],
+  "folds": 9,
+  "source_cutoff": "2026-01-01T00:00:00Z",
+  "training": "trailing 365d sampled every eighth 15m bar; labels available before fold start",
+  "test": "next ~90d through 2025-12-31; all symbols same UTC fold",
+  "note": "development comparison only; no certified prototype or trade recommendation"
+}

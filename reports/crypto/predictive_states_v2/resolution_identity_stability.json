@@ -1,0 +1,7 @@
+{
+  "chosen_k": 48,
+  "matched_assignment_agreement": 0.4630883487654321,
+  "adjusted_rand_index": 0.3207734737907396,
+  "mean_matched_center_distance": 0.4408780336380005,
+  "comparison": "2023 vs 2024 independently fitted centers; common 2025H1 paths"
+}

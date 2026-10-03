@@ -1,0 +1,24 @@
+volatility:
+  har_min_sessions: 40
+  har_week_sessions: 5
+  har_month_sessions: 22
+  seasonality_min_sessions: 20
+  seasonality_update_sessions: 5
+  seasonality_median_width: 5
+  seasonality_lowess_frac: 0.10
+  local_ewma_lambda: 0.97
+  local_shrinkage_theta: 0.40
+  local_clip: [0.5, 2.5]
+
+context:
+  sigma_percentile_sessions: 60
+  vol_fast_halflife_bars: 12
+  vol_slow_halflife_bars: 96
+  efficiency_windows: [20, 60]
+  variance_ratio_q: 5
+  variance_ratio_window_bars: 120
+
+gate:
+  min: 0.2
+  max: 1.5
+  initial_weights: equal

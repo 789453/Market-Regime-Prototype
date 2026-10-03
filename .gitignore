@@ -1,0 +1,29 @@
+# Market data and row-level generated datasets are kept outside Git.
+*.parquet
+*.feather
+*.arrow
+
+# Local environments, caches, and transient files.
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.py[cod]
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Local credentials and machine-specific settings.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_ed25519*
+
+# Personal and temporary files unrelated to the research project.
+tests/量化实习简历.*
+tests/temp1.txt

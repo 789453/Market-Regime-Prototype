@@ -1,0 +1,18 @@
+shared:
+  horizons: [6, 12, 24, 48, 96]
+  confidence_stage3: 1.0
+  minimum_pooled_triggers: 150
+  minimum_triggers_per_tier_a_root: 25
+  null_draws: 2000
+  null_percentile_gate: 0.925
+  stability_gate: 0.70
+
+detectors:
+  D01: {hypothesis_id: H-01, default_horizon: 24}
+  D02: {hypothesis_id: H-02, default_horizon: 24}
+  D03: {hypothesis_id: H-03, default_horizon: 24}
+  D04: {hypothesis_id: H-04, default_horizon: 24}
+  D05: {hypothesis_id: H-05, default_horizon: 12}
+  D06: {hypothesis_id: H-06, default_horizon: 12}
+  D07: {hypothesis_id: H-07, default_horizon: 12}
+  D08: {hypothesis_id: H-08, default_horizon: 12}

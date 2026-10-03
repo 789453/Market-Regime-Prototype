@@ -1,0 +1,175 @@
+{
+  "groups": {
+    "vol_strength": [
+      "rv_fast",
+      "rv_med",
+      "rv_slow",
+      "rv_fast_slow",
+      "rv_accel",
+      "range_vol_fast",
+      "body_vol_fast",
+      "rv_surprise"
+    ],
+    "vol_asymmetry": [
+      "up_semivar_fast",
+      "down_semivar_fast",
+      "semivar_balance",
+      "down_up_ratio",
+      "negative_rate_med",
+      "return_vol_corr_med",
+      "upper_wick_med",
+      "lower_wick_med"
+    ],
+    "path_geometry": [
+      "body_range",
+      "close_location",
+      "range_ratio",
+      "open_gap_z",
+      "vwap_distance",
+      "above_prev_high",
+      "below_prev_low",
+      "reversal_from_high"
+    ],
+    "trend": [
+      "momentum_fast",
+      "momentum_med",
+      "momentum_slow",
+      "momentum_z_med",
+      "ema_fast_med",
+      "ema_med_slow",
+      "direction_alignment",
+      "breakout_balance"
+    ],
+    "efficiency": [
+      "efficiency_fast",
+      "efficiency_med",
+      "sign_flip_med",
+      "return_acf1_med",
+      "variance_ratio_2",
+      "choppiness_med",
+      "sign_entropy_med",
+      "path_range_ratio"
+    ],
+    "participation": [
+      "quote_rel_fast",
+      "quote_rel_slow",
+      "trades_rel_fast",
+      "mean_trade_quote",
+      "flow_imb_fast",
+      "flow_imb_med",
+      "flow_change",
+      "impact_proxy"
+    ],
+    "time_context": [
+      "hour_sin",
+      "hour_cos",
+      "week_sin",
+      "week_cos",
+      "is_weekend",
+      "asia_hours",
+      "europe_hours",
+      "america_hours"
+    ]
+  },
+  "features_per_frequency": 56,
+  "snapshots": [
+    {
+      "symbol": "ADAUSDT",
+      "rows": 130848,
+      "columns": 114,
+      "first_available_at": "2023-01-01 00:15:00+00:00",
+      "last_available_at": "2026-09-25 00:00:00+00:00",
+      "path": "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\data\\crypto\\features\\ADAUSDT.parquet"
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "rows": 130848,
+      "columns": 114,
+      "first_available_at": "2023-01-01 00:15:00+00:00",
+      "last_available_at": "2026-09-25 00:00:00+00:00",
+      "path": "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\data\\crypto\\features\\AVAXUSDT.parquet"
+    },
+    {
+      "symbol": "BCHUSDT",
+      "rows": 130848,
+      "columns": 114,
+      "first_available_at": "2023-01-01 00:15:00+00:00",
+      "last_available_at": "2026-09-25 00:00:00+00:00",
+      "path": "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\data\\crypto\\features\\BCHUSDT.parquet"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "rows": 130848,
+      "columns": 114,
+      "first_available_at": "2023-01-01 00:15:00+00:00",
+      "last_available_at": "2026-09-25 00:00:00+00:00",
+      "path": "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\data\\crypto\\features\\BNBUSDT.parquet"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "rows": 130848,
+      "columns": 114,
+      "first_available_at": "2023-01-01 00:15:00+00:00",
+      "last_available_at": "2026-09-25 00:00:00+00:00",
+      "path": "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\data\\crypto\\features\\BTCUSDT.parquet"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "rows": 130848,
+      "columns": 114,
+      "first_available_at": "2023-01-01 00:15:00+00:00",
+      "last_available_at": "2026-09-25 00:00:00+00:00",
+      "path": "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\data\\crypto\\features\\DOGEUSDT.parquet"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "rows": 130848,
+      "columns": 114,
+      "first_available_at": "2023-01-01 00:15:00+00:00",
+      "last_available_at": "2026-09-25 00:00:00+00:00",
+      "path": "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\data\\crypto\\features\\ETHUSDT.parquet"
+    },
+    {
+      "symbol": "LINKUSDT",
+      "rows": 130848,
+      "columns": 114,
+      "first_available_at": "2023-01-01 00:15:00+00:00",
+      "last_available_at": "2026-09-25 00:00:00+00:00",
+      "path": "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\data\\crypto\\features\\LINKUSDT.parquet"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "rows": 130848,
+      "columns": 114,
+      "first_available_at": "2023-01-01 00:15:00+00:00",
+      "last_available_at": "2026-09-25 00:00:00+00:00",
+      "path": "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\data\\crypto\\features\\LTCUSDT.parquet"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "rows": 130848,
+      "columns": 114,
+      "first_available_at": "2023-01-01 00:15:00+00:00",
+      "last_available_at": "2026-09-25 00:00:00+00:00",
+      "path": "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\data\\crypto\\features\\SOLUSDT.parquet"
+    },
+    {
+      "symbol": "TRXUSDT",
+      "rows": 130848,
+      "columns": 114,
+      "first_available_at": "2023-01-01 00:15:00+00:00",
+      "last_available_at": "2026-09-25 00:00:00+00:00",
+      "path": "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\data\\crypto\\features\\TRXUSDT.parquet"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "rows": 130848,
+      "columns": 114,
+      "first_available_at": "2023-01-01 00:15:00+00:00",
+      "last_available_at": "2026-09-25 00:00:00+00:00",
+      "path": "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\data\\crypto\\features\\XRPUSDT.parquet"
+    }
+  ],
+  "available_at": "bar close_time + 1ms; both frequencies fully closed",
+  "decision_clock": "every 15m close; feature table contains no future label"
+}

@@ -1,0 +1,384 @@
+cost_multiplier: 1.5
+estimator: Abdi-Ranaldo CHL with one-tick floor
+instruments:
+  ES:
+    tick_bp: 0.335582
+    commission_bp_per_side: 0.05
+    slippage_ticks_per_side: 0.5
+    hourly:
+    - local_hour: 0
+      spread_bp: 0.335582
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.156745
+    - local_hour: 1
+      spread_bp: 0.62258
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.587243
+    - local_hour: 2
+      spread_bp: 0.335582
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.156745
+    - local_hour: 3
+      spread_bp: 0.335582
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.156745
+    - local_hour: 4
+      spread_bp: 0.643488
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.618605
+    - local_hour: 5
+      spread_bp: 0.623904
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.589229
+    - local_hour: 6
+      spread_bp: 0.335582
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.156745
+    - local_hour: 7
+      spread_bp: 2.182582
+      valid_pairs: 1596
+      round_trip_cost_bp: 3.927245
+    - local_hour: 8
+      spread_bp: 1.343917
+      valid_pairs: 1584
+      round_trip_cost_bp: 2.669248
+    - local_hour: 9
+      spread_bp: 2.214007
+      valid_pairs: 1230
+      round_trip_cost_bp: 3.974383
+    - local_hour: 10
+      spread_bp: 1.83403
+      valid_pairs: 312
+      round_trip_cost_bp: 3.404418
+    - local_hour: 11
+      spread_bp: 3.152449
+      valid_pairs: 312
+      round_trip_cost_bp: 5.382046
+    - local_hour: 12
+      spread_bp: 1.519568
+      valid_pairs: 309
+      round_trip_cost_bp: 2.932725
+    - local_hour: 13
+      spread_bp: 1.888388
+      valid_pairs: 276
+      round_trip_cost_bp: 3.485955
+    - local_hour: 14
+      spread_bp: 0.335582
+      valid_pairs: 276
+      round_trip_cost_bp: 1.156745
+    - local_hour: 15
+      spread_bp: 2.90939
+      valid_pairs: 276
+      round_trip_cost_bp: 5.017458
+    - local_hour: 16
+      spread_bp: 0.335582
+      valid_pairs: 253
+      round_trip_cost_bp: 1.156745
+    - local_hour: 18
+      spread_bp: 0.335582
+      valid_pairs: 1584
+      round_trip_cost_bp: 1.156745
+    - local_hour: 19
+      spread_bp: 0.335582
+      valid_pairs: 1584
+      round_trip_cost_bp: 1.156745
+    - local_hour: 20
+      spread_bp: 0.335582
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.156745
+    - local_hour: 21
+      spread_bp: 0.335582
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.156745
+    - local_hour: 22
+      spread_bp: 0.335582
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.156745
+    - local_hour: 23
+      spread_bp: 0.335582
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.156745
+  HSI:
+    tick_bp: 0.393902
+    commission_bp_per_side: 0.4
+    slippage_ticks_per_side: 0.5
+    hourly:
+    - local_hour: 0
+      spread_bp: 1.372942
+      valid_pairs: 312
+      round_trip_cost_bp: 3.850266
+    - local_hour: 1
+      spread_bp: 1.394613
+      valid_pairs: 311
+      round_trip_cost_bp: 3.882772
+    - local_hour: 2
+      spread_bp: 2.131545
+      valid_pairs: 285
+      round_trip_cost_bp: 4.988171
+    - local_hour: 17
+      spread_bp: 0.393902
+      valid_pairs: 1225
+      round_trip_cost_bp: 2.381707
+    - local_hour: 18
+      spread_bp: 0.393902
+      valid_pairs: 1493
+      round_trip_cost_bp: 2.381707
+    - local_hour: 19
+      spread_bp: 1.314683
+      valid_pairs: 1490
+      round_trip_cost_bp: 3.762878
+    - local_hour: 20
+      spread_bp: 0.393902
+      valid_pairs: 1502
+      round_trip_cost_bp: 2.381707
+    - local_hour: 21
+      spread_bp: 0.393902
+      valid_pairs: 1207
+      round_trip_cost_bp: 2.381707
+    - local_hour: 22
+      spread_bp: 0.393902
+      valid_pairs: 312
+      round_trip_cost_bp: 2.381707
+    - local_hour: 23
+      spread_bp: 2.791432
+      valid_pairs: 312
+      round_trip_cost_bp: 5.978002
+  HTI:
+    tick_bp: 2.078138
+    commission_bp_per_side: 0.5
+    slippage_ticks_per_side: 0.5
+    hourly:
+    - local_hour: 0
+      spread_bp: 2.078138
+      valid_pairs: 312
+      round_trip_cost_bp: 7.734414
+    - local_hour: 1
+      spread_bp: 2.366241
+      valid_pairs: 304
+      round_trip_cost_bp: 8.166569
+    - local_hour: 2
+      spread_bp: 2.298715
+      valid_pairs: 284
+      round_trip_cost_bp: 8.06528
+    - local_hour: 17
+      spread_bp: 2.078138
+      valid_pairs: 1222
+      round_trip_cost_bp: 7.734414
+    - local_hour: 18
+      spread_bp: 2.078138
+      valid_pairs: 1444
+      round_trip_cost_bp: 7.734414
+    - local_hour: 19
+      spread_bp: 3.729403
+      valid_pairs: 1434
+      round_trip_cost_bp: 10.211312
+    - local_hour: 20
+      spread_bp: 2.078138
+      valid_pairs: 1484
+      round_trip_cost_bp: 7.734414
+    - local_hour: 21
+      spread_bp: 2.078138
+      valid_pairs: 1203
+      round_trip_cost_bp: 7.734414
+    - local_hour: 22
+      spread_bp: 2.078138
+      valid_pairs: 310
+      round_trip_cost_bp: 7.734414
+    - local_hour: 23
+      spread_bp: 4.242355
+      valid_pairs: 312
+      round_trip_cost_bp: 10.980739
+  NQ:
+    tick_bp: 0.085864
+    commission_bp_per_side: 0.03
+    slippage_ticks_per_side: 0.5
+    hourly:
+    - local_hour: 0
+      spread_bp: 0.085864
+      valid_pairs: 1596
+      round_trip_cost_bp: 0.347593
+    - local_hour: 1
+      spread_bp: 0.517524
+      valid_pairs: 1596
+      round_trip_cost_bp: 0.995082
+    - local_hour: 2
+      spread_bp: 0.085864
+      valid_pairs: 1596
+      round_trip_cost_bp: 0.347593
+    - local_hour: 3
+      spread_bp: 0.085864
+      valid_pairs: 1596
+      round_trip_cost_bp: 0.347593
+    - local_hour: 4
+      spread_bp: 0.26253
+      valid_pairs: 1596
+      round_trip_cost_bp: 0.612592
+    - local_hour: 5
+      spread_bp: 0.297957
+      valid_pairs: 1596
+      round_trip_cost_bp: 0.665732
+    - local_hour: 6
+      spread_bp: 1.084706
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.845855
+    - local_hour: 7
+      spread_bp: 2.206968
+      valid_pairs: 1596
+      round_trip_cost_bp: 3.529249
+    - local_hour: 8
+      spread_bp: 0.722486
+      valid_pairs: 1584
+      round_trip_cost_bp: 1.302525
+    - local_hour: 9
+      spread_bp: 4.31016
+      valid_pairs: 1230
+      round_trip_cost_bp: 6.684036
+    - local_hour: 10
+      spread_bp: 4.179592
+      valid_pairs: 312
+      round_trip_cost_bp: 6.488185
+    - local_hour: 11
+      spread_bp: 4.000262
+      valid_pairs: 312
+      round_trip_cost_bp: 6.21919
+    - local_hour: 12
+      spread_bp: 1.195938
+      valid_pairs: 309
+      round_trip_cost_bp: 2.012703
+    - local_hour: 13
+      spread_bp: 2.625377
+      valid_pairs: 276
+      round_trip_cost_bp: 4.156862
+    - local_hour: 14
+      spread_bp: 0.085864
+      valid_pairs: 276
+      round_trip_cost_bp: 0.347593
+    - local_hour: 15
+      spread_bp: 0.085864
+      valid_pairs: 276
+      round_trip_cost_bp: 0.347593
+    - local_hour: 16
+      spread_bp: 0.085864
+      valid_pairs: 253
+      round_trip_cost_bp: 0.347593
+    - local_hour: 18
+      spread_bp: 0.085864
+      valid_pairs: 1584
+      round_trip_cost_bp: 0.347593
+    - local_hour: 19
+      spread_bp: 0.085864
+      valid_pairs: 1584
+      round_trip_cost_bp: 0.347593
+    - local_hour: 20
+      spread_bp: 0.085864
+      valid_pairs: 1596
+      round_trip_cost_bp: 0.347593
+    - local_hour: 21
+      spread_bp: 0.085864
+      valid_pairs: 1596
+      round_trip_cost_bp: 0.347593
+    - local_hour: 22
+      spread_bp: 0.085864
+      valid_pairs: 1596
+      round_trip_cost_bp: 0.347593
+    - local_hour: 23
+      spread_bp: 0.085864
+      valid_pairs: 1596
+      round_trip_cost_bp: 0.347593
+  RTY:
+    tick_bp: 0.343997
+    commission_bp_per_side: 0.08
+    slippage_ticks_per_side: 0.5
+    hourly:
+    - local_hour: 0
+      spread_bp: 0.374442
+      valid_pairs: 1580
+      round_trip_cost_bp: 1.317659
+    - local_hour: 1
+      spread_bp: 0.397183
+      valid_pairs: 1594
+      round_trip_cost_bp: 1.351771
+    - local_hour: 2
+      spread_bp: 0.343997
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.271992
+    - local_hour: 3
+      spread_bp: 0.343997
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.271992
+    - local_hour: 4
+      spread_bp: 1.217187
+      valid_pairs: 1596
+      round_trip_cost_bp: 2.581776
+    - local_hour: 5
+      spread_bp: 0.343997
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.271992
+    - local_hour: 6
+      spread_bp: 0.343997
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.271992
+    - local_hour: 7
+      spread_bp: 0.343997
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.271992
+    - local_hour: 8
+      spread_bp: 2.278402
+      valid_pairs: 1584
+      round_trip_cost_bp: 4.173599
+    - local_hour: 9
+      spread_bp: 0.854081
+      valid_pairs: 1230
+      round_trip_cost_bp: 2.037117
+    - local_hour: 10
+      spread_bp: 3.981388
+      valid_pairs: 312
+      round_trip_cost_bp: 6.728077
+    - local_hour: 11
+      spread_bp: 4.491998
+      valid_pairs: 312
+      round_trip_cost_bp: 7.493993
+    - local_hour: 12
+      spread_bp: 2.758906
+      valid_pairs: 309
+      round_trip_cost_bp: 4.894354
+    - local_hour: 13
+      spread_bp: 2.51039
+      valid_pairs: 276
+      round_trip_cost_bp: 4.521581
+    - local_hour: 14
+      spread_bp: 1.782931
+      valid_pairs: 276
+      round_trip_cost_bp: 3.430393
+    - local_hour: 15
+      spread_bp: 0.343997
+      valid_pairs: 276
+      round_trip_cost_bp: 1.271992
+    - local_hour: 16
+      spread_bp: 0.343997
+      valid_pairs: 253
+      round_trip_cost_bp: 1.271992
+    - local_hour: 18
+      spread_bp: 0.343997
+      valid_pairs: 1569
+      round_trip_cost_bp: 1.271992
+    - local_hour: 19
+      spread_bp: 0.921227
+      valid_pairs: 1578
+      round_trip_cost_bp: 2.137837
+    - local_hour: 20
+      spread_bp: 0.343997
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.271992
+    - local_hour: 21
+      spread_bp: 0.343997
+      valid_pairs: 1594
+      round_trip_cost_bp: 1.271992
+    - local_hour: 22
+      spread_bp: 0.343997
+      valid_pairs: 1596
+      round_trip_cost_bp: 1.271992
+    - local_hour: 23
+      spread_bp: 0.699694
+      valid_pairs: 1592
+      round_trip_cost_bp: 1.805537

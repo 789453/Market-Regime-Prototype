@@ -1,0 +1,12 @@
+{
+  "chosen_on": "2025-07 through 2026-01 development validation",
+  "test_status": "exploratory reuse of 2026",
+  "winner": "X1_equal_K24_soft",
+  "candidates": 18,
+  "predefined_k": [
+    6,
+    12,
+    24
+  ],
+  "geometry_cuda": true
+}

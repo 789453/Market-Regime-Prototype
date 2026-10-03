@@ -1,0 +1,50 @@
+{
+  "date_limit": "2025-12-31; 2026 rows excluded before modelling",
+  "features": [
+    "trend_15",
+    "trend_5",
+    "efficiency_15",
+    "efficiency_5",
+    "vol_intensity",
+    "vol_asymmetry",
+    "path",
+    "flow",
+    "hour_sin",
+    "hour_cos",
+    "trend_efficiency",
+    "trend_volatility",
+    "path_flow"
+  ],
+  "base_features": [
+    "momentum_z_med_15m",
+    "momentum_z_med_5m",
+    "efficiency_med_15m",
+    "efficiency_med_5m",
+    "rv_fast_slow_15m",
+    "semivar_balance_15m",
+    "close_location_5m",
+    "flow_imb_med_15m",
+    "hour_sin_15m",
+    "hour_cos_15m",
+    "rv_slow_15m"
+  ],
+  "train_days": 180,
+  "test_days": 30,
+  "train_sample_frequency": "1h",
+  "signal_frequency": "15m",
+  "label_horizon_hours": 4,
+  "execution_delay_minutes": 5,
+  "ridge_alpha": 1000,
+  "entry_hurdle_abs_logret": 0.002,
+  "hysteresis_exit": "exit when directional prediction changes sign; strong opposite signal reverses",
+  "side_cost_bp_scenarios": [
+    0,
+    4,
+    10,
+    20
+  ],
+  "funding": "missing; not included",
+  "benchmark": "buy and hold only",
+  "folds": 31,
+  "signals": 1053784
+}

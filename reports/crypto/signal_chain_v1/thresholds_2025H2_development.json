@@ -1,0 +1,22 @@
+{
+  "phase": "2025H2_development",
+  "market_enter": 0.003707883284385393,
+  "market_exit": 0.0017280956406293244,
+  "pair_enter": 0.004488226892133117,
+  "pair_exit": 0.00285803505598179,
+  "pair_geometry_enter": 0.004477240661279674,
+  "pair_geometry_exit": 0.002908909510925484,
+  "pair_full_x2_enter": 0.003759966809492596,
+  "pair_full_x2_exit": 0.0026047332649480103,
+  "pair_full_x2_sparse_enter": 0.0042754412156979825,
+  "pair_full_x2_sparse_exit": 0.002739196926828429,
+  "pair_full_x2_own_enter": 0.003804900055118571,
+  "pair_full_x2_own_exit": 0.0026364890263983376,
+  "pair_full_x2_own_sparse_enter": 0.004310882096332431,
+  "pair_full_x2_own_sparse_exit": 0.0027500614940359114,
+  "market_momentum_enter": 0.025750544768132384,
+  "pair_momentum_enter": 0.08493689855360184,
+  "fit_through": "2025-07-01",
+  "first_decision": "2025-07-01 00:00:00+00:00",
+  "last_decision": "2025-12-31 00:00:00+00:00"
+}

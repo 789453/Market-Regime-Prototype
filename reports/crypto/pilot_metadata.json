@@ -1,0 +1,32 @@
+{
+  "train_rows": 8664,
+  "validation_rows": 4368,
+  "train_period": "2023-2024",
+  "validation_period": "2025",
+  "untouched_period": "2026",
+  "state_weights": {
+    "0": 1.0,
+    "1": 0.0,
+    "2": 1.0,
+    "3": 1.0,
+    "4": 1.0,
+    "5": 0.0
+  },
+  "feature_names": [
+    "trend_z",
+    "efficiency",
+    "vol_ratio",
+    "flow_imbalance",
+    "activity_ratio"
+  ],
+  "cost_bps_per_side_scenarios": [
+    0,
+    4,
+    10,
+    20
+  ],
+  "decision": "23:00 UTC bar close",
+  "entry": "following 00:00 UTC open",
+  "exit": "next day's 00:00 UTC open",
+  "funding": "not included; unavailable"
+}

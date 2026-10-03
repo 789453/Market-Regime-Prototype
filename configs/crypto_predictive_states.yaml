@@ -1,0 +1,36 @@
+version: predictive_states_v1_20260929
+source: D:/Trading/practical_crypto_strategy/data/parquet
+feature_dir: data/crypto/features
+discovery_fit_end: '2025-01-01T00:00:00Z'
+discovery_end: '2025-07-01T00:00:00Z'
+validation_end: '2026-02-01T00:00:00Z'
+test_end: '2026-09-25T00:00:00Z'
+execution_delay_minutes: 5
+label_horizons_hours: [4, 24]
+geometry_sample_per_symbol: 16000
+outcome_sample_stride: 4
+root_clusters: 8
+max_splits: 8
+minimum_leaf_training: 700
+minimum_leaf_selection: 350
+shrinkage: 700
+symbol_shrinkage: 1000
+reject_radius_quantile: 0.90
+random_seed: 20260929
+return_bin_edges: [-1.0, -0.25, 0.25, 1.0]
+representation_columns:
+  vol_strength: [rv_fast_slow_5m, rv_surprise_5m, rv_fast_slow_15m, rv_surprise_15m]
+  vol_asymmetry: [semivar_balance_5m, lower_wick_med_5m, semivar_balance_15m, lower_wick_med_15m]
+  path_geometry: [close_location_5m, vwap_distance_5m, close_location_15m, vwap_distance_15m]
+  trend: [momentum_z_med_5m, direction_alignment_5m, momentum_z_med_15m, direction_alignment_15m]
+  efficiency: [efficiency_med_5m, sign_flip_med_5m, efficiency_med_15m, sign_flip_med_15m]
+  participation: [flow_imb_med_5m, quote_rel_fast_5m, flow_imb_med_15m, quote_rel_fast_15m]
+  time_context: [hour_sin_15m, hour_cos_15m, week_sin_15m, week_cos_15m]
+path_columns:
+  vol_strength: [rv_fast_slow_15m, rv_surprise_15m]
+  vol_asymmetry: [semivar_balance_15m, lower_wick_med_15m]
+  path_geometry: [close_location_15m, vwap_distance_15m]
+  trend: [momentum_z_med_15m, direction_alignment_15m]
+  efficiency: [efficiency_med_15m, sign_flip_med_15m]
+  participation: [flow_imb_med_15m, quote_rel_fast_15m]
+path_lags_15m: [4, 8, 12, 16]

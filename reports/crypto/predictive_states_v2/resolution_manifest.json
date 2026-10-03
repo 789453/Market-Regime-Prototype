@@ -1,0 +1,11 @@
+{
+  "counts": [
+    24,
+    48,
+    96
+  ],
+  "decision": "smallest K whose paired validation difference versus raw best has interval including zero",
+  "raw_best_k": 96,
+  "chosen_k": 48,
+  "test_status": "exploratory reuse, not independent confirmation"
+}

@@ -1,0 +1,20 @@
+bins:
+  efficiency: [0.33, 0.66]
+  sigma_percentile: [0.33, 0.66]
+  vol_ratio: [0.8, 1.2]
+  liquidity_z: [-1.0, 1.0]
+
+gate:
+  minimum: 0.2
+  maximum: 1.5
+  quantiles: 10
+  isotonic_r2_minimum: 0.60
+  adjacent_jump_maximum: 0.40
+  weights: equal
+
+shrinkage:
+  dimensions: [structure, efficiency, volatility, vol_direction, liquidity, phase]
+  maximum_interaction_order: 2
+  minimum_cell_observations: 2
+  root_deviation_prior: strong
+  causal_outcome_availability: true

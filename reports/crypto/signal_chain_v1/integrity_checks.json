@@ -1,0 +1,81 @@
+{
+  "forecast_rows": 5400,
+  "portfolio_rows": 21600,
+  "position_rows": 86400,
+  "max_pair_beta_exposure": 1.1102230246251565e-16,
+  "raw_24h_return_spot_checks": [
+    {
+      "phase": "2025H2_development",
+      "symbol": "BTCUSDT",
+      "available_at": "2025-07-01 00:00:00+00:00",
+      "difference": 0.0
+    },
+    {
+      "phase": "2025H2_development",
+      "symbol": "BTCUSDT",
+      "available_at": "2025-10-01 00:00:00+00:00",
+      "difference": 0.0
+    },
+    {
+      "phase": "2025H2_development",
+      "symbol": "BTCUSDT",
+      "available_at": "2025-12-31 00:00:00+00:00",
+      "difference": 0.0
+    },
+    {
+      "phase": "2026_exploratory",
+      "symbol": "BTCUSDT",
+      "available_at": "2026-01-01 00:00:00+00:00",
+      "difference": 0.0
+    },
+    {
+      "phase": "2026_exploratory",
+      "symbol": "BTCUSDT",
+      "available_at": "2026-05-14 00:00:00+00:00",
+      "difference": 0.0
+    },
+    {
+      "phase": "2026_exploratory",
+      "symbol": "BTCUSDT",
+      "available_at": "2026-09-23 00:00:00+00:00",
+      "difference": 0.0
+    },
+    {
+      "phase": "2025H2_development",
+      "symbol": "AVAXUSDT",
+      "available_at": "2025-07-01 00:00:00+00:00",
+      "difference": 0.0
+    },
+    {
+      "phase": "2025H2_development",
+      "symbol": "AVAXUSDT",
+      "available_at": "2025-10-01 00:00:00+00:00",
+      "difference": 0.0
+    },
+    {
+      "phase": "2025H2_development",
+      "symbol": "AVAXUSDT",
+      "available_at": "2025-12-31 00:00:00+00:00",
+      "difference": 0.0
+    },
+    {
+      "phase": "2026_exploratory",
+      "symbol": "AVAXUSDT",
+      "available_at": "2026-01-01 00:00:00+00:00",
+      "difference": 0.0
+    },
+    {
+      "phase": "2026_exploratory",
+      "symbol": "AVAXUSDT",
+      "available_at": "2026-05-14 00:00:00+00:00",
+      "difference": 0.0
+    },
+    {
+      "phase": "2026_exploratory",
+      "symbol": "AVAXUSDT",
+      "available_at": "2026-09-23 00:00:00+00:00",
+      "difference": 0.0
+    }
+  ],
+  "status": "pass"
+}

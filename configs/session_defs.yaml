@@ -1,0 +1,216 @@
+session_defs:
+- root: ES
+  tz: America/New_York
+  valid_from: '2026-03-02'
+  valid_to: '2026-09-02'
+  segments:
+  - start: '18:00'
+    end: '17:00'
+  phases:
+  - name: GLOBEX_OPEN
+    start_minute: 1080
+    end_minute: 1200
+  - name: ASIA
+    start_minute: 1200
+    end_minute: 120
+  - name: EU_OPEN
+    start_minute: 120
+    end_minute: 240
+  - name: EU_MORN
+    start_minute: 240
+    end_minute: 480
+  - name: US_PRE
+    start_minute: 480
+    end_minute: 570
+  - name: US_OPEN
+    start_minute: 570
+    end_minute: 630
+  - name: US_MORN
+    start_minute: 630
+    end_minute: 720
+  - name: US_LUNCH
+    start_minute: 720
+    end_minute: 840
+  - name: US_PM
+    start_minute: 840
+    end_minute: 930
+  - name: US_CLOSE
+    start_minute: 930
+    end_minute: 975
+  - name: POST
+    start_minute: 975
+    end_minute: 1020
+- root: HSI
+  tz: Asia/Hong_Kong
+  valid_from: '2026-03-02'
+  valid_to: '2026-07-17'
+  segments:
+  - start: '17:15'
+    end: 03:00
+  phases:
+  - name: HK_NIGHT_OPEN
+    start_minute: 1020
+    end_minute: 1080
+  - name: HK_EU
+    start_minute: 1080
+    end_minute: 1290
+  - name: HK_US_PRE
+    start_minute: 1290
+    end_minute: 1350
+  - name: HK_US_MORN
+    start_minute: 1350
+    end_minute: 60
+  - name: HK_LATE
+    start_minute: 60
+    end_minute: 180
+- root: HSI
+  tz: Asia/Hong_Kong
+  valid_from: '2026-07-20'
+  valid_to: '2026-09-02'
+  segments:
+  - start: '17:00'
+    end: 03:00
+  phases:
+  - name: HK_NIGHT_OPEN
+    start_minute: 1020
+    end_minute: 1080
+  - name: HK_EU
+    start_minute: 1080
+    end_minute: 1290
+  - name: HK_US_PRE
+    start_minute: 1290
+    end_minute: 1350
+  - name: HK_US_MORN
+    start_minute: 1350
+    end_minute: 60
+  - name: HK_LATE
+    start_minute: 60
+    end_minute: 180
+- root: HTI
+  tz: Asia/Hong_Kong
+  valid_from: '2026-03-02'
+  valid_to: '2026-07-17'
+  segments:
+  - start: '17:15'
+    end: 03:00
+  phases:
+  - name: HK_NIGHT_OPEN
+    start_minute: 1020
+    end_minute: 1080
+  - name: HK_EU
+    start_minute: 1080
+    end_minute: 1290
+  - name: HK_US_PRE
+    start_minute: 1290
+    end_minute: 1350
+  - name: HK_US_MORN
+    start_minute: 1350
+    end_minute: 60
+  - name: HK_LATE
+    start_minute: 60
+    end_minute: 180
+- root: HTI
+  tz: Asia/Hong_Kong
+  valid_from: '2026-07-20'
+  valid_to: '2026-09-02'
+  segments:
+  - start: '17:00'
+    end: 03:00
+  phases:
+  - name: HK_NIGHT_OPEN
+    start_minute: 1020
+    end_minute: 1080
+  - name: HK_EU
+    start_minute: 1080
+    end_minute: 1290
+  - name: HK_US_PRE
+    start_minute: 1290
+    end_minute: 1350
+  - name: HK_US_MORN
+    start_minute: 1350
+    end_minute: 60
+  - name: HK_LATE
+    start_minute: 60
+    end_minute: 180
+- root: NQ
+  tz: America/New_York
+  valid_from: '2026-03-02'
+  valid_to: '2026-09-02'
+  segments:
+  - start: '18:00'
+    end: '17:00'
+  phases:
+  - name: GLOBEX_OPEN
+    start_minute: 1080
+    end_minute: 1200
+  - name: ASIA
+    start_minute: 1200
+    end_minute: 120
+  - name: EU_OPEN
+    start_minute: 120
+    end_minute: 240
+  - name: EU_MORN
+    start_minute: 240
+    end_minute: 480
+  - name: US_PRE
+    start_minute: 480
+    end_minute: 570
+  - name: US_OPEN
+    start_minute: 570
+    end_minute: 630
+  - name: US_MORN
+    start_minute: 630
+    end_minute: 720
+  - name: US_LUNCH
+    start_minute: 720
+    end_minute: 840
+  - name: US_PM
+    start_minute: 840
+    end_minute: 930
+  - name: US_CLOSE
+    start_minute: 930
+    end_minute: 975
+  - name: POST
+    start_minute: 975
+    end_minute: 1020
+- root: RTY
+  tz: America/New_York
+  valid_from: '2026-03-02'
+  valid_to: '2026-09-02'
+  segments:
+  - start: '18:00'
+    end: '17:00'
+  phases:
+  - name: GLOBEX_OPEN
+    start_minute: 1080
+    end_minute: 1200
+  - name: ASIA
+    start_minute: 1200
+    end_minute: 120
+  - name: EU_OPEN
+    start_minute: 120
+    end_minute: 240
+  - name: EU_MORN
+    start_minute: 240
+    end_minute: 480
+  - name: US_PRE
+    start_minute: 480
+    end_minute: 570
+  - name: US_OPEN
+    start_minute: 570
+    end_minute: 630
+  - name: US_MORN
+    start_minute: 630
+    end_minute: 720
+  - name: US_LUNCH
+    start_minute: 720
+    end_minute: 840
+  - name: US_PM
+    start_minute: 840
+    end_minute: 930
+  - name: US_CLOSE
+    start_minute: 930
+    end_minute: 975
+  - name: POST
+    start_minute: 975
+    end_minute: 1020

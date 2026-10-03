@@ -1,0 +1,10 @@
+detector_id,parameter_1,value_1,parameter_2,value_2,performance,n
+D08,z_threshold,0.5,event_minute,900,-0.3013324289120443,60
+D08,z_threshold,0.5,event_minute,930,-0.1447515313211963,63
+D08,z_threshold,0.5,event_minute,945,0.014857228348519812,61
+D08,z_threshold,0.8,event_minute,900,-0.3135675564209696,59
+D08,z_threshold,0.8,event_minute,930,-0.15741087840191742,61
+D08,z_threshold,0.8,event_minute,945,0.019465154339807115,60
+D08,z_threshold,1.1,event_minute,900,-0.32210377989627065,58
+D08,z_threshold,1.1,event_minute,930,-0.20838222001079784,59
+D08,z_threshold,1.1,event_minute,945,0.019465154339807115,60

@@ -1,0 +1,73 @@
+{
+  "ES": {
+    "minute_rows": 136087,
+    "start": "2026-03-01T23:00:00+00:00",
+    "end": "2026-09-02T13:36:00+00:00",
+    "duplicate_timestamps": 0,
+    "contracts": 3,
+    "gaps_over_10_minutes": 132,
+    "maximum_gap_hours": 56.77,
+    "daily_rows": 186,
+    "daily_front_close_available": 130,
+    "daily_carry_available": 130,
+    "historical_oi": "not_available_from_ibkr_historical_api"
+  },
+  "NQ": {
+    "minute_rows": 136087,
+    "start": "2026-03-01T23:00:00+00:00",
+    "end": "2026-09-02T13:36:00+00:00",
+    "duplicate_timestamps": 0,
+    "contracts": 3,
+    "gaps_over_10_minutes": 132,
+    "maximum_gap_hours": 56.77,
+    "daily_rows": 186,
+    "daily_front_close_available": 130,
+    "daily_carry_available": 130,
+    "historical_oi": "not_available_from_ibkr_historical_api"
+  },
+  "RTY": {
+    "minute_rows": 136087,
+    "start": "2026-03-01T23:00:00+00:00",
+    "end": "2026-09-02T13:36:00+00:00",
+    "duplicate_timestamps": 0,
+    "contracts": 3,
+    "gaps_over_10_minutes": 132,
+    "maximum_gap_hours": 56.77,
+    "daily_rows": 186,
+    "daily_front_close_available": 130,
+    "daily_carry_available": 130,
+    "historical_oi": "not_available_from_ibkr_historical_api"
+  },
+  "HSI": {
+    "minute_rows": 42890,
+    "start": "2026-03-02T09:15:00+00:00",
+    "end": "2026-09-02T13:31:00+00:00",
+    "duplicate_timestamps": 0,
+    "contracts": 7,
+    "gaps_over_10_minutes": 125,
+    "maximum_gap_hours": 134.27,
+    "daily_rows": 186,
+    "daily_front_close_available": 126,
+    "daily_carry_available": 126,
+    "historical_oi": "not_available_from_ibkr_historical_api"
+  },
+  "HTI": {
+    "minute_rows": 42884,
+    "start": "2026-03-02T09:15:00+00:00",
+    "end": "2026-09-02T13:31:00+00:00",
+    "duplicate_timestamps": 0,
+    "contracts": 7,
+    "gaps_over_10_minutes": 125,
+    "maximum_gap_hours": 134.27,
+    "daily_rows": 186,
+    "daily_front_close_available": 126,
+    "daily_carry_available": 126,
+    "historical_oi": "not_available_from_ibkr_historical_api"
+  },
+  "unified": {
+    "minute_rows": 494035,
+    "daily_rows": 930,
+    "minute_file": "six_month_index_futures_minute.parquet",
+    "daily_file": "six_month_index_futures_daily.parquet"
+  }
+}

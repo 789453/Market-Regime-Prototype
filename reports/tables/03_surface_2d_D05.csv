@@ -1,0 +1,10 @@
+detector_id,parameter_1,value_1,parameter_2,value_2,performance,n
+D05,confirm_bars,2,small_z,0.4,-0.07222677274977088,750
+D05,confirm_bars,2,small_z,0.5,-0.0704939706699611,767
+D05,confirm_bars,2,small_z,0.6,-0.05253846831510488,784
+D05,confirm_bars,3,small_z,0.4,-0.051327795263570224,760
+D05,confirm_bars,3,small_z,0.5,-0.04697071618844669,787
+D05,confirm_bars,3,small_z,0.6,-0.013140576984476862,817
+D05,confirm_bars,4,small_z,0.4,-0.032557098376782334,758
+D05,confirm_bars,4,small_z,0.5,-0.040941486628528,784
+D05,confirm_bars,4,small_z,0.6,-0.030194659628174848,814

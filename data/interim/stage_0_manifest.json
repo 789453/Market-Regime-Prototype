@@ -1,0 +1,10 @@
+{
+  "generated_at_utc": "2026-09-04T13:52:18.748203+00:00",
+  "git_hash": null,
+  "inputs": {
+    "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\raw_data\\six_month_index_futures_minute(1).parquet": "f55e9d332476be1aab1d5c04a3b95cea6da4ab241a11408e347f4acd15319a9c"
+  },
+  "configs": {
+    "D:\\Trading\\HongKongQuant\\time_selecting_strategy\\configs\\base.yaml": "70ecde46b7bee01760737c05ab72c0216fc7a5bdc10208cabb837567aa127f51"
+  }
+}

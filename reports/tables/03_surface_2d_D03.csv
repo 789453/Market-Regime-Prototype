@@ -1,0 +1,13 @@
+detector_id,parameter_1,value_1,parameter_2,value_2,performance,n
+D03,kappa,1.5,retrace_hi,0.55,0.3593907038621658,93
+D03,kappa,1.5,retrace_hi,0.65,0.3876584749103344,124
+D03,kappa,1.5,retrace_hi,0.75,0.19794637259254513,184
+D03,kappa,2.0,retrace_hi,0.55,-0.37530442036255485,48
+D03,kappa,2.0,retrace_hi,0.65,-0.1846764741161588,86
+D03,kappa,2.0,retrace_hi,0.75,-0.15702389500749112,116
+D03,kappa,2.5,retrace_hi,0.55,-0.7085631476781269,24
+D03,kappa,2.5,retrace_hi,0.65,-0.5780597917689694,53
+D03,kappa,2.5,retrace_hi,0.75,-0.6982856451621466,81
+D03,kappa,3.0,retrace_hi,0.55,-0.7483641041541005,21
+D03,kappa,3.0,retrace_hi,0.65,-0.49259865042663803,44
+D03,kappa,3.0,retrace_hi,0.75,-0.45169581279350124,56

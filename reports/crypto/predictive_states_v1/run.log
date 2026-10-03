@@ -1,0 +1,38 @@
+loaded 1,570,164 causal snapshots
+{'fit': 839796, 'inner': 207360, 'discovery': 1048308, 'validation': 246528, 'test': 270720}
+fitting X0_current: 28 coordinates
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+  validation: [('X0_current_root', 1.2637), ('X0_current_split', 1.2637), ('X0_current_direct', 1.2158)]
+fitting X1_endpoints: 40 coordinates
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+  validation: [('X1_endpoints_root', 1.2638), ('X1_endpoints_split', 1.2632), ('X1_endpoints_direct', 1.2144)]
+fitting X2_ordered_path: 100 coordinates
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+  validation: [('X2_ordered_path_root', 1.2679), ('X2_ordered_path_split', 1.2662), ('X2_ordered_path_direct', 1.2124)]
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+selected on validation: X1_endpoints_split
+              model period   rows  days  logloss  logloss_day_equal  logloss_4h_return  logloss_24h_return  logloss_4h_vol  coverage  states
+ X1_endpoints_split   test 270720   235 1.263659           1.263659           1.558634            1.585032        0.647312  0.857883      12
+X1_endpoints_direct   test 270720   235 1.227655           1.227655           1.543012            1.574677        0.565276  1.000000       0
+  symbol_background   test 270720   235 1.274120           1.274120           1.562889            1.587761        0.671710  1.000000       0
+paired 7d differences {'state_minus_direct': (0.0360042005777359, 0.02945643118582666, 0.04261966459453106), 'state_minus_background': (-0.01046075765043497, -0.013224365608766674, -0.00748195032356307)}

@@ -1,0 +1,41 @@
+loaded 1570164 compact features 29
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+market_clock_background [('validation', 1.216723), ('test_exploratory', 1.2284)]
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+compact_no_prototype [('validation', 1.214283), ('test_exploratory', 1.225553)]
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+D:\Total_Tools\miniforge3\envs\universal\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+compact_with_prototype [('validation', 1.21414), ('test_exploratory', 1.225689)]
+paired test exploratory {'minus_compact_no_prototype': (0.00013645977014675736, -7.477876115444815e-05, 0.00033778787255869244), 'minus_market_clock_background': (-0.0027102793101221323, -0.0034970517503097654, -0.0018818509503034878), 'minus_v1_X1_center': (-0.037970058619976044, -0.044651089888066056, -0.03157124202698469), 'minus_v1_X1_direct': (-0.0019658596720546484, -0.004712337476667017, 0.0011582999984966584)}
