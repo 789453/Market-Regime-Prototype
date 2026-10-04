@@ -1,5 +1,7 @@
 # 智能体工作约定
 
+最新用户优先级与 V2 入口（2026-10-04）：先读 `STATE.md`、`docs/MARKET_BETA_STRATEGY_V2_PLAN.md`、`docs/MARKET_BETA_STRATEGY_V2_LITERATURE.md` 和 `reports/crypto/market_beta_strategy_v2/MARKET_BETA_STRATEGY_V2.md`。研究以策略本质、方向机会、下跌/反弹转换及适应性为中心，执行取数不是当前主工作。全部 12 合约都做，maker 单边 2bp 为主、taker 5bp 对照，允许十几小时至十多天持仓，名义多空上限对称而不强制利润均衡。HTML 负责可视化、Markdown 负责核心分析。24 方案已完成；滚动树/直接动作网络仍失效，不能把遗忘或复杂化自动当修复。保持必要因果链与历史复用标识，不用繁重检验替代策略研究。以下历史说明以本段与最新 STATE 为准。
+
 方案 A 分支实施入口（2026-10-04）：`codex/market-beta-a` 为独立市场 Beta 路线，原形态原型和未来其他方法保留。先读最新 `STATE.md`、`docs/MARKET_BETA_A_IMPLEMENTATION_2026_10_04.md` 和 `reports/crypto/market_beta_a_v1/MARKET_BETA_A_REPORT.md`。用户本轮明确要求双向，直接比较有限多空与多头/现金。连续信号、慢调仓和真实数量账本已运行；2026 监督关系漂移、方向增量不稳，先补执行证据与冻结后新日期记录，不选全期最高收益，不扩大原型数补救。下文继续用于历史理解，最新状态优先。
 
 最新入口（2026-10-04）：先读 `STATE.md`、`docs/STRATEGY_TRANSFORMATION_2026_10_04.md`、`reports/crypto/REGIME_PROTOTYPE_RESEARCH_2026_09_30.md`，再读 `docs/RESEARCH_REVIEW_2026_09_30.md` 和 `docs/NEXT_RESEARCH_OPTIMIZATION_GUIDE.md`。用户希望以形态／市场状态理解并承担 Beta，可接受策略转型；下一轮主研究改为市场层条件 Beta 承担，先核实合约和成本、做市场/残差归因及朴素持有、波动控制、趋势对照，再检验状态、X2 和原型增量。旧 `pair_full_x2_own_sparse_posthoc`（本币 X2 80/40）及市场增强版均为未认证的历史对照，不作为新策略默认目标。下文历史读取顺序及因果、只读与交付约定继续有效；00–03 中旧人工种子主线表述以最新 STATE 和 C-025 决策为准。

@@ -1,5 +1,7 @@
 # 加密货币合约多维形态择时研究基地
 
+**方案 A 策略深研 V2（2026-10-04）：**[HTML 可视化仪表板](reports/crypto/market_beta_strategy_v2/MARKET_BETA_STRATEGY_V2.html) · [Markdown 核心分析](reports/crypto/market_beta_strategy_v2/MARKET_BETA_STRATEGY_V2.md) · [论文阅读](docs/MARKET_BETA_STRATEGY_V2_LITERATURE.md)。全部 12 合约、24 种策略、maker 单边 2bp / taker 5bp，研究趋势速度、空头反弹、经济/隐状态专家、非平稳适应与直接动作网络；27 张图拆分呈现。下一步由交易机制和适应性主导，原型路线继续保留。
+
 **方案 A 独立分支实施（2026-10-04）：**[精美离线 HTML 报告](reports/crypto/market_beta_a_v1/MARKET_BETA_A_REPORT.html) · [详细研究报告](reports/crypto/market_beta_a_v1/MARKET_BETA_A_REPORT.md) · [执行宪章](docs/MARKET_BETA_A_IMPLEMENTATION_2026_10_04.md)。`codex/market-beta-a` 实现连续市场信号、慢速多空调仓、官方资金费率核验、真实数量账本与递进模型反证；原形态原型路线及后续其他方法保留。新结果为开发前向/复用探索，没有独立可交易认证。最新进度以 [STATE](STATE.md) 为准；以下为此前研究脉络。
 
 **2026-10-04 转型研究入口：**[从形态原型研究转向可检验的市场 Beta 状态策略](docs/STRATEGY_TRANSFORMATION_2026_10_04.md)。该文重新定义策略目标、主线与卫星路线、对照和停止规则；属于研究设计，尚未产生新的回测结果。以下段落记录此前实验，不代表转型后的策略已经验证。

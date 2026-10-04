@@ -1,0 +1,21 @@
+{
+  "all_12_contracts": [
+    "ADAUSDT",
+    "AVAXUSDT",
+    "BCHUSDT",
+    "BNBUSDT",
+    "BTCUSDT",
+    "DOGEUSDT",
+    "ETHUSDT",
+    "LINKUSDT",
+    "LTCUSDT",
+    "SOLUSDT",
+    "TRXUSDT",
+    "XRPUSDT"
+  ],
+  "max_leg_accounting_error": 2.3669954885008337e-13,
+  "primary_fee_bp": 2,
+  "taker_fee_bp": 5,
+  "forward_maturity": true,
+  "status": "strategy evidence, historical reused"
+}

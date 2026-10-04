@@ -1,0 +1,259 @@
+{
+  "config": {
+    "research_id": "market_beta_strategy_v2",
+    "branch": "codex/market-beta-a",
+    "raw_root": "D:/Trading/practical_crypto_strategy/data/parquet",
+    "output_dir": "reports/crypto/market_beta_strategy_v2",
+    "data_dir": "data/crypto/market_beta_strategy_v2",
+    "symbols": [
+      "ADAUSDT",
+      "AVAXUSDT",
+      "BCHUSDT",
+      "BNBUSDT",
+      "BTCUSDT",
+      "DOGEUSDT",
+      "ETHUSDT",
+      "LINKUSDT",
+      "LTCUSDT",
+      "SOLUSDT",
+      "TRXUSDT",
+      "XRPUSDT"
+    ],
+    "end_exclusive": "2026-09-25T00:00:00Z",
+    "first_forward": "2024-01-01T00:00:00Z",
+    "rebalance_hours": 4,
+    "execution_delay_minutes": 5,
+    "vol_target": 0.45,
+    "max_long": 1.0,
+    "max_short": 1.0,
+    "min_resize": 0.12,
+    "maker_fee_bp_side": 2.0,
+    "taker_fee_bp_side": 5.0,
+    "trend_hours": [
+      24,
+      72,
+      168,
+      336
+    ],
+    "selection_window_days": 365,
+    "adaptive_half_lives_days": [
+      14,
+      42,
+      126
+    ],
+    "supervised_horizons_hours": [
+      24,
+      72,
+      240
+    ],
+    "refit_months": 3,
+    "rolling_training_days": 365,
+    "sample_stride_hours": 4,
+    "seed": 20261004,
+    "funding_primary": "excluded for all 12; existing BTC/ETH local funding sensitivity separately",
+    "historical_status": "causal walk-forward development on previously explored dates",
+    "live_execution_enabled": false
+  },
+  "raw_files": [
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\ADAUSDT\\1h.parquet",
+      "rows": 32712,
+      "first": "2023-01-01 01:00:00+00:00",
+      "last": "2026-09-25 00:00:00+00:00",
+      "sha256": "a27270de583738fb383d31b939954d177dfcb21658fd9477a9766dd811ab3de6"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\ADAUSDT\\5m.parquet",
+      "rows": 392544,
+      "first": "2023-01-01 00:00:00+00:00",
+      "last": "2026-09-24 23:55:00+00:00",
+      "sha256": "ef356e74d024bb0f3c69fcc4949eb970025396b2168daa8a3c620e8cfd5249e1"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\AVAXUSDT\\1h.parquet",
+      "rows": 32712,
+      "first": "2023-01-01 01:00:00+00:00",
+      "last": "2026-09-25 00:00:00+00:00",
+      "sha256": "120dc256360f650a28b5e62ac5c5b804cdc957041bed696e4f8410709f28632a"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\AVAXUSDT\\5m.parquet",
+      "rows": 392544,
+      "first": "2023-01-01 00:00:00+00:00",
+      "last": "2026-09-24 23:55:00+00:00",
+      "sha256": "2fb3638d0aae0f85f70573a50dfa5373b90f1e238186e159c5d97e3c467862d2"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\BCHUSDT\\1h.parquet",
+      "rows": 32712,
+      "first": "2023-01-01 01:00:00+00:00",
+      "last": "2026-09-25 00:00:00+00:00",
+      "sha256": "3a2b6387fb67781ee00a3395870aab34676d5340b493eb41401c23dba4000ad9"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\BCHUSDT\\5m.parquet",
+      "rows": 392544,
+      "first": "2023-01-01 00:00:00+00:00",
+      "last": "2026-09-24 23:55:00+00:00",
+      "sha256": "e3c1500f3adc0413444f59aa97623fef17be25cd25d3beb19835413d51c13765"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\BNBUSDT\\1h.parquet",
+      "rows": 32712,
+      "first": "2023-01-01 01:00:00+00:00",
+      "last": "2026-09-25 00:00:00+00:00",
+      "sha256": "fb23bcaaabf84a2b1a88bef95cc39de19e7fc0c7c73330b4e12fe9a12adee80f"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\BNBUSDT\\5m.parquet",
+      "rows": 392544,
+      "first": "2023-01-01 00:00:00+00:00",
+      "last": "2026-09-24 23:55:00+00:00",
+      "sha256": "9b9196b889df7777706d5eabb11f43e6d7d332981eb6394e16162fd3743636f5"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\BTCUSDT\\1h.parquet",
+      "rows": 32712,
+      "first": "2023-01-01 01:00:00+00:00",
+      "last": "2026-09-25 00:00:00+00:00",
+      "sha256": "d157bbc96b30d26267d423610bb750d778ecc1738962e848b2fe2b504014d454"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\BTCUSDT\\5m.parquet",
+      "rows": 392544,
+      "first": "2023-01-01 00:00:00+00:00",
+      "last": "2026-09-24 23:55:00+00:00",
+      "sha256": "f8d8207f8835292dfcea5a3bf656b51eb5fe8fbfc3304a3ca3c3dea5a6b7651f"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\DOGEUSDT\\1h.parquet",
+      "rows": 32712,
+      "first": "2023-01-01 01:00:00+00:00",
+      "last": "2026-09-25 00:00:00+00:00",
+      "sha256": "8b9dcdb60bab2bd46b98ed6e955bb46702a32d7ab0f0c20b23f4f9e850c6724f"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\DOGEUSDT\\5m.parquet",
+      "rows": 392544,
+      "first": "2023-01-01 00:00:00+00:00",
+      "last": "2026-09-24 23:55:00+00:00",
+      "sha256": "97e33f08eb9fc73fd4d1e067873bd44b04de76cc2209a784bc607fe43820b619"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\ETHUSDT\\1h.parquet",
+      "rows": 32712,
+      "first": "2023-01-01 01:00:00+00:00",
+      "last": "2026-09-25 00:00:00+00:00",
+      "sha256": "13ae8b77c86df938cedfa1faca734b1d297a39c02bb621e884496beaea720e82"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\ETHUSDT\\5m.parquet",
+      "rows": 392544,
+      "first": "2023-01-01 00:00:00+00:00",
+      "last": "2026-09-24 23:55:00+00:00",
+      "sha256": "a59ca6be3d29328a57c9baf6729ea5ed3442f247bef5d7b6b0f70f13f64e9c54"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\LINKUSDT\\1h.parquet",
+      "rows": 32712,
+      "first": "2023-01-01 01:00:00+00:00",
+      "last": "2026-09-25 00:00:00+00:00",
+      "sha256": "2ab5b92e9817ee3ae42974fba9300e1544ef6e2b61c2995ca528aa9d8755974d"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\LINKUSDT\\5m.parquet",
+      "rows": 392544,
+      "first": "2023-01-01 00:00:00+00:00",
+      "last": "2026-09-24 23:55:00+00:00",
+      "sha256": "18fe5fe6cfd76bb1b4bd606c1b484ebbaf6b1e2cc35166a0e2e0158d6ce5595c"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\LTCUSDT\\1h.parquet",
+      "rows": 32712,
+      "first": "2023-01-01 01:00:00+00:00",
+      "last": "2026-09-25 00:00:00+00:00",
+      "sha256": "2f536b124361fb9d80349e7be0c859877c2e0ac46e0937be7886d71ebe8fbb37"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\LTCUSDT\\5m.parquet",
+      "rows": 392544,
+      "first": "2023-01-01 00:00:00+00:00",
+      "last": "2026-09-24 23:55:00+00:00",
+      "sha256": "53b4d98ecb52c7ca4f344ff3688b85b27cd23c4e4abb62ac7f7d81f7effef139"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\SOLUSDT\\1h.parquet",
+      "rows": 32712,
+      "first": "2023-01-01 01:00:00+00:00",
+      "last": "2026-09-25 00:00:00+00:00",
+      "sha256": "221c47f5426236b386fa5dbb9f854d74dd228d0d7ff1dd45229b74b5695920fe"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\SOLUSDT\\5m.parquet",
+      "rows": 392544,
+      "first": "2023-01-01 00:00:00+00:00",
+      "last": "2026-09-24 23:55:00+00:00",
+      "sha256": "4a95f9a7ea3b6be28c66131db1e4e68592085b32e6ee01c18d87a9a7d1e0a538"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\TRXUSDT\\1h.parquet",
+      "rows": 32712,
+      "first": "2023-01-01 01:00:00+00:00",
+      "last": "2026-09-25 00:00:00+00:00",
+      "sha256": "348477c81952951e6ba12ee115f23d9278d9a73193185a81fb51f98431ae817e"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\TRXUSDT\\5m.parquet",
+      "rows": 392544,
+      "first": "2023-01-01 00:00:00+00:00",
+      "last": "2026-09-24 23:55:00+00:00",
+      "sha256": "fe43e92cd2ddf71c8d540b9f39ee91a54e6ee99c0063b3523b48a92cbc07e49a"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\XRPUSDT\\1h.parquet",
+      "rows": 32712,
+      "first": "2023-01-01 01:00:00+00:00",
+      "last": "2026-09-25 00:00:00+00:00",
+      "sha256": "8099872b1289cb1199d21587d93a1d187879b01bf30814b4a2e28f182cf623b5"
+    },
+    {
+      "path": "D:\\Trading\\practical_crypto_strategy\\data\\parquet\\XRPUSDT\\5m.parquet",
+      "rows": 392544,
+      "first": "2023-01-01 00:00:00+00:00",
+      "last": "2026-09-24 23:55:00+00:00",
+      "sha256": "4535fd51548c8319b05769c59fe5619420f43e6bb7ad7133248542ebfc4d6c3b"
+    }
+  ],
+  "policies": [
+    "trend24",
+    "trend72",
+    "trend168",
+    "trend336",
+    "trend_ensemble",
+    "breakout",
+    "range_only",
+    "down_rebound",
+    "selected_trend",
+    "selected_breakout",
+    "regime_gate",
+    "gate_no_range",
+    "adaptive14",
+    "adaptive42",
+    "adaptive126",
+    "filtered_moe",
+    "kalman",
+    "trend_ensemble_long",
+    "regime_gate_long",
+    "expanding_tree",
+    "rolling_tree",
+    "action_tcn",
+    "vol_long",
+    "hold"
+  ],
+  "folds": 11,
+  "all_train_labels_matured": true,
+  "elapsed_seconds": 1235.397481918335,
+  "torch_version": "2.11.0.dev20251222+cu128",
+  "primary_funding": "excluded",
+  "status": "historical walk-forward, not untouched OOS"
+}
