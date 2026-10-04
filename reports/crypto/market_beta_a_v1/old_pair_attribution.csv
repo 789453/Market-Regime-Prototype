@@ -1,0 +1,3 @@
+﻿phase,strategy,days,average_estimated_beta,max_abs_estimated_beta,mean_price_pnl_bp,mean_estimated_market_bp,mean_remaining_bp,method
+2025H2_development,pair_full_x2_own_sparse_posthoc,184,3.0169103930031427e-19,1.1102230246251565e-16,7.633339157784067,2.7470066284019734e-16,7.633339157784066,"original estimated-beta decomposition; log beta × market log return is an approximation, residual includes beta error and arithmetic convexity"
+2026_exploratory,pair_full_x2_own_sparse_posthoc,266,2.0868853846337528e-19,1.1102230246251565e-16,5.574996592709246,-4.4263040874733183e-17,5.574996592709246,"original estimated-beta decomposition; log beta × market log return is an approximation, residual includes beta error and arithmetic convexity"

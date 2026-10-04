@@ -1,0 +1,3 @@
+﻿symbol,events,first,last,gaps_over_reported_interval,max_interval_hours,interval_hours,settlement_mark,complete_through_end
+BTCUSDT,4089,2023-01-01 00:00:00+00:00,2026-09-24 16:00:00.005000+00:00,0,8.000007222222223,8,5m trade-open proxy; exact mark unavailable,True
+ETHUSDT,4089,2023-01-01 00:00:00+00:00,2026-09-24 16:00:00.005000+00:00,0,8.000007222222223,8,5m trade-open proxy; exact mark unavailable,True

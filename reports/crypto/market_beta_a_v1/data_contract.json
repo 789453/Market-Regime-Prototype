@@ -1,0 +1,14 @@
+{
+  "matched_usdm_symbol_months": 24,
+  "required_symbol_months": 24,
+  "interpretation": "OHLC matches support USD-M trade-price provenance at audited months; not complete chain-of-custody certification",
+  "account_fee_verified": false,
+  "mark_price_verified": false,
+  "funding_successful_archives": 90,
+  "funding_requested_archives": 90,
+  "sources": [
+    "https://github.com/binance/binance-public-data",
+    "https://developers.binance.com/en/docs/catalog/core-trading-derivatives-trading-usd-s-m-futures/api/rest-api/market-data",
+    "https://developers.binance.com/en/docs/catalog/core-trading-derivatives-trading-usd-s-m-futures/api/rest-api/account"
+  ]
+}

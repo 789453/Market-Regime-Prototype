@@ -2,6 +2,7 @@
 *.parquet
 *.feather
 *.arrow
+data/crypto/market_beta_a_v1/official_archives/
 
 # Local environments, caches, and transient files.
 __pycache__/

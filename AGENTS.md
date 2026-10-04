@@ -1,5 +1,7 @@
 # 智能体工作约定
 
+方案 A 分支实施入口（2026-10-04）：`codex/market-beta-a` 为独立市场 Beta 路线，原形态原型和未来其他方法保留。先读最新 `STATE.md`、`docs/MARKET_BETA_A_IMPLEMENTATION_2026_10_04.md` 和 `reports/crypto/market_beta_a_v1/MARKET_BETA_A_REPORT.md`。用户本轮明确要求双向，直接比较有限多空与多头/现金。连续信号、慢调仓和真实数量账本已运行；2026 监督关系漂移、方向增量不稳，先补执行证据与冻结后新日期记录，不选全期最高收益，不扩大原型数补救。下文继续用于历史理解，最新状态优先。
+
 最新入口（2026-10-04）：先读 `STATE.md`、`docs/STRATEGY_TRANSFORMATION_2026_10_04.md`、`reports/crypto/REGIME_PROTOTYPE_RESEARCH_2026_09_30.md`，再读 `docs/RESEARCH_REVIEW_2026_09_30.md` 和 `docs/NEXT_RESEARCH_OPTIMIZATION_GUIDE.md`。用户希望以形态／市场状态理解并承担 Beta，可接受策略转型；下一轮主研究改为市场层条件 Beta 承担，先核实合约和成本、做市场/残差归因及朴素持有、波动控制、趋势对照，再检验状态、X2 和原型增量。旧 `pair_full_x2_own_sparse_posthoc`（本币 X2 80/40）及市场增强版均为未认证的历史对照，不作为新策略默认目标。下文历史读取顺序及因果、只读与交付约定继续有效；00–03 中旧人工种子主线表述以最新 STATE 和 C-025 决策为准。
 
 先读 `README.md`、`STATE.md`、`docs/模型改进思考-9-29.md`、`docs/PREDICTIVE_STATES_V2_PLAN.md` 和 `reports/crypto/predictive_states_v2/06_predictive_states_v2.md`；再读 `docs/形态原型 下阶段分析思考.md`、`docs/NEXT_PREDICTIVE_STATES_STAGE.md` 和 `reports/crypto/predictive_states_v1/05_predictive_states_stage.md`；为理解更早历史再读 `docs/MIDTERM_PATTERN_STAGE.md`、`reports/crypto/04_full_pattern_stage.md`、`docs/对改进提示词2的回应与原型研究设计.md`、`docs/RESEARCH_BLUEPRINT.md`、`docs/RESEARCH_BRIDGE.md`；具体任务再读 00–03。前一阶段主线是**可解释特征与中间路径 → 方向中性的历史几何身份 → 受限连续条件分布 → 分开检验支持、预测与跨年身份**；下一阶段的市场 Beta 策略目标以转型文档为准。旧八种语义种子是历史对照，语义主要在特征构建层；不要再用 99%+ 相似触发作为默认研究对象。直接概率预测是同输入、同目标的重要竞争解释，不得只以“原型可解释”预设原型胜出。不要按旧 G1–G5 或股指期货 holdout 纪律指挥新实验。

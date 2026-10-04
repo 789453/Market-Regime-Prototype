@@ -1,0 +1,12 @@
+[
+  {
+    "symbol": "BTCUSDT",
+    "status": "unavailable",
+    "reason": "451 Client Error:  for url: https://fapi.binance.com/fapi/v1/fundingRate?symbol=BTCUSDT&startTime=1672531200000&endTime=1790294399999&limit=1000"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "status": "unavailable",
+    "reason": "451 Client Error:  for url: https://fapi.binance.com/fapi/v1/fundingRate?symbol=ETHUSDT&startTime=1672531200000&endTime=1790294399999&limit=1000"
+  }
+]

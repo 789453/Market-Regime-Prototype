@@ -1,5 +1,7 @@
 # 加密货币合约多维形态择时研究基地
 
+**方案 A 独立分支实施（2026-10-04）：**[精美离线 HTML 报告](reports/crypto/market_beta_a_v1/MARKET_BETA_A_REPORT.html) · [详细研究报告](reports/crypto/market_beta_a_v1/MARKET_BETA_A_REPORT.md) · [执行宪章](docs/MARKET_BETA_A_IMPLEMENTATION_2026_10_04.md)。`codex/market-beta-a` 实现连续市场信号、慢速多空调仓、官方资金费率核验、真实数量账本与递进模型反证；原形态原型路线及后续其他方法保留。新结果为开发前向/复用探索，没有独立可交易认证。最新进度以 [STATE](STATE.md) 为准；以下为此前研究脉络。
+
 **2026-10-04 转型研究入口：**[从形态原型研究转向可检验的市场 Beta 状态策略](docs/STRATEGY_TRANSFORMATION_2026_10_04.md)。该文重新定义策略目标、主线与卫星路线、对照和停止规则；属于研究设计，尚未产生新的回测结果。以下段落记录此前实验，不代表转型后的策略已经验证。
 
 本项目已有研究围绕 **12 个 USDT 合约的多维历史状态、未来条件分布和探索性多空信号** 展开。此前路线是：可解释量价与中间路径特征 → 方向中性的历史几何身份 → 受限的局部/连续条件分布 → 分开评价历史支持、预测价值与身份稳定性 → 独立信号阶段的市场/币种相对收益。**预测状态 v2 与首轮信号链均已完成**：48 区对未来波动有粗分层，交易方向增量失败；完整本币 X2 的稀疏策略有后验线索，但 2026 已多次使用、阈值和输入敏感，尚无认证的可交易优势。新主研究问题转为市场层条件 Beta 承担，具体对照与停止规则见转型文档。
@@ -38,6 +40,13 @@ GitHub 版本保留研究代码、文档、汇总 CSV、图表和小型模型文
 ## 当前可运行的检查
 
 ```powershell
+python scripts/crypto_market_beta_preflight.py
+python scripts/crypto_market_beta_contract_api.py
+python scripts/crypto_market_beta_a.py
+python scripts/crypto_market_beta_verify.py
+python scripts/crypto_market_beta_diagnostics.py
+python scripts/crypto_market_beta_shadow.py
+python scripts/crypto_market_beta_report.py
 python scripts/inspect_crypto_parquet.py > reports/crypto_data_inventory.json
 python scripts/crypto_state_pilot.py
 python scripts/build_crypto_features.py

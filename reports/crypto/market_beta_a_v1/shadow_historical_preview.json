@@ -1,0 +1,118 @@
+{
+  "available_at": "2026-09-25 00:00:00+00:00",
+  "recorded_at": "2026-10-04T05:44:39.129805+00:00",
+  "earliest_execution_at": "2026-09-25 00:05:00+00:00",
+  "status": "historical preview; not new-date confirmation",
+  "model_sha256": "98693e228d4fbb11580ef8b7fc606c48715cbb78f808460caf63d8667d51c650",
+  "live_order": false,
+  "candidates": {
+    "historical_mean": {
+      "predictions": {
+        "return4": 0.00014016297351561425,
+        "return24": 0.0009090158875588796,
+        "return72": 0.0030129206174296865,
+        "long_mae24": 0.016328177905229346,
+        "short_mae24": 0.016540334631569276,
+        "rv24": 0.02231004977096584,
+        "prob_down24": 0.4791346606051105,
+        "prob_tail24": 0.06756544912995767,
+        "return24_q10": -0.026304202906496148
+      },
+      "prior_planned_beta": 0.0,
+      "proposed_beta": 0.0,
+      "paper_order": false,
+      "reason": "hold",
+      "mu24_equivalent": 0.0008056755737411455
+    },
+    "state_ridge": {
+      "predictions": {
+        "return4": 0.0003699785917991946,
+        "return24": 0.002893432799482557,
+        "return72": 0.00685242701748955,
+        "long_mae24": 0.014260222277409708,
+        "short_mae24": 0.017515582950991516,
+        "rv24": 0.023143741626338053,
+        "prob_down24": 0.47466399974824575,
+        "prob_tail24": 0.0439042692343691,
+        "return24_q10": -0.020144378168031104
+      },
+      "prior_planned_beta": 0.0,
+      "proposed_beta": 0.0,
+      "paper_order": false,
+      "reason": "hold",
+      "mu24_equivalent": 0.0024576134116492667
+    },
+    "state_tree": {
+      "predictions": {
+        "return4": 0.0016582371058257719,
+        "return24": 0.0038084448336135907,
+        "return72": 0.005152340188875374,
+        "long_mae24": 0.014219609361825949,
+        "short_mae24": 0.015922211504929392,
+        "rv24": 0.0226653196864074,
+        "prob_down24": 0.42863819554568,
+        "prob_tail24": 0.046244620748078766,
+        "return24_q10": -0.020144378168031104
+      },
+      "prior_planned_beta": 0.0,
+      "proposed_beta": 0.8317074585028849,
+      "paper_order": true,
+      "reason": "entry",
+      "mu24_equivalent": 0.004291020962685259
+    },
+    "x2_tree": {
+      "predictions": {
+        "return4": 0.00018387867026024244,
+        "return24": 0.002304799462447503,
+        "return72": 0.00530337254101629,
+        "long_mae24": 0.014595596327233012,
+        "short_mae24": 0.014984159062434967,
+        "rv24": 0.022590959983957482,
+        "prob_down24": 0.4236145250513771,
+        "prob_tail24": 0.06920391583278077,
+        "return24_q10": -0.024321325269826263
+      },
+      "prior_planned_beta": 0.0,
+      "proposed_beta": 0.0,
+      "paper_order": false,
+      "reason": "hold",
+      "mu24_equivalent": 0.0017850713896376716
+    },
+    "x2_no_internal": {
+      "predictions": {
+        "return4": 2.2220733880670458e-05,
+        "return24": 0.0022387272968413326,
+        "return72": 0.004823021781387139,
+        "long_mae24": 0.014849360547153316,
+        "short_mae24": 0.015099270395864752,
+        "rv24": 0.02166388942466455,
+        "prob_down24": 0.43345874649885424,
+        "prob_tail24": 0.08131481509976582,
+        "return24_q10": -0.02393677620323984
+      },
+      "prior_planned_beta": 0.0,
+      "proposed_beta": 0.0,
+      "paper_order": false,
+      "reason": "hold",
+      "mu24_equivalent": 0.0015100107072161845
+    },
+    "x2_soft_local": {
+      "predictions": {
+        "return4": 0.0002956298592580589,
+        "return24": 0.0035404937305342147,
+        "return72": 0.008282758637585043,
+        "long_mae24": 0.013863611823022669,
+        "short_mae24": 0.0156777894083529,
+        "rv24": 0.02257100062305648,
+        "prob_down24": 0.40942164977297485,
+        "prob_tail24": 0.059079395127895076,
+        "return24_q10": -0.024321325269826263
+      },
+      "prior_planned_beta": 0.0,
+      "proposed_beta": 0.0,
+      "paper_order": false,
+      "reason": "hold",
+      "mu24_equivalent": 0.0028349585601352826
+    }
+  }
+}

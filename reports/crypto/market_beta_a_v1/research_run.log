@@ -1,0 +1,47 @@
+Fit 2024-01-01: 7943 training hours; 4368 forward hours
+Fit 2024-07-01: 12311 training hours; 4416 forward hours
+Fit 2025-01-01: 16727 training hours; 4344 forward hours
+Fit 2025-07-01: 21071 training hours; 4416 forward hours
+Fit 2026-01-01: 25487 training hours; 4344 forward hours
+Fit 2026-07-01: 29831 training hours; 2064 forward hours
+Ledger: buy_hold planned orders: 1
+Ledger: fixed_beta_035 planned orders: 1
+Ledger: vol_control planned orders: 69
+Ledger: trend24 planned orders: 1669
+Ledger: trend168 planned orders: 604
+Ledger: trend_multi planned orders: 1129
+Ledger: trend_multi_long_only planned orders: 651
+Ledger: state_ridge planned orders: 1162
+Ledger: state_tree planned orders: 900
+Ledger: state_tree_long_only planned orders: 667
+Ledger: trend_state_risk planned orders: 1129
+Ledger: state_tree_review2h planned orders: 1081
+Ledger: state_tree_review8h planned orders: 698
+Ledger: state_tree_penalty0.08 planned orders: 827
+Ledger: state_tree_penalty0.16 planned orders: 888
+Ledger: state_tree_known_risk planned orders: 849
+Ledger: x2_no_internal planned orders: 801
+Ledger: x2_soft_local planned orders: 802
+Ledger: x2_tree planned orders: 812
+Ledger: x2_tree_long_only planned orders: 591
+                policy  return_total  max_drawdown  mean_net_beta  participation  mean_sign_episode_hours
+              buy_hold      0.265885     -0.676764       1.160137       1.000000             23951.833333
+        fixed_beta_035      0.093096     -0.370936       0.481319       1.000000             23951.833333
+           vol_control      0.359455     -0.501242       0.724913       1.000000             23951.833333
+               trend24     -0.119418     -0.359478       0.031300       0.940175                37.926836
+              trend168      0.339646     -0.213095       0.067754       0.956385               194.535230
+           trend_multi      0.165309     -0.249827       0.049330       0.924442                70.595379
+ trend_multi_long_only      0.232953     -0.194144       0.209240       0.590578               217.140693
+           state_ridge      0.664016     -0.231394       0.200204       0.673678                35.077899
+            state_tree      0.107504     -0.348007       0.217637       0.657820                41.682540
+  state_tree_long_only      0.167645     -0.333026       0.281462       0.582836                66.794258
+      trend_state_risk      0.165309     -0.249827       0.049330       0.924442                70.595379
+   state_tree_review2h      0.171748     -0.290905       0.219846       0.664333                38.621359
+   state_tree_review8h      0.252137     -0.307533       0.228438       0.670338                54.242680
+state_tree_penalty0.08      0.141655     -0.331347       0.254251       0.652302                41.332892
+state_tree_penalty0.16      0.097331     -0.319672       0.187827       0.635275                43.474286
+ state_tree_known_risk      0.102747     -0.303705       0.174811       0.622249                44.756757
+        x2_no_internal      0.499965     -0.344743       0.223806       0.656317                52.929293
+         x2_soft_local      0.404549     -0.398874       0.243879       0.661995                54.675862
+               x2_tree      0.496957     -0.324164       0.242445       0.654480                53.684932
+     x2_tree_long_only      0.320189     -0.327470       0.295237       0.551440                75.474286
